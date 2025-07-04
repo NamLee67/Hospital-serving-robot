@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"getencoder\startup_stm32f103xb.o"
+"getencoder\main.o"
+"getencoder\stm32f1xx_it.o"
+"getencoder\stm32f1xx_hal_msp.o"
+"getencoder\stm32f1xx_hal_gpio_ex.o"
+"getencoder\stm32f1xx_hal_tim.o"
+"getencoder\stm32f1xx_hal_tim_ex.o"
+"getencoder\stm32f1xx_hal.o"
+"getencoder\stm32f1xx_hal_rcc.o"
+"getencoder\stm32f1xx_hal_rcc_ex.o"
+"getencoder\stm32f1xx_hal_gpio.o"
+"getencoder\stm32f1xx_hal_dma.o"
+"getencoder\stm32f1xx_hal_cortex.o"
+"getencoder\stm32f1xx_hal_pwr.o"
+"getencoder\stm32f1xx_hal_flash.o"
+"getencoder\stm32f1xx_hal_flash_ex.o"
+"getencoder\stm32f1xx_hal_exti.o"
+"getencoder\stm32f1xx_hal_uart.o"
+"getencoder\system_stm32f1xx.o"
+--strict --scatter "GetEncoder\GetEncoder.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GetEncoder.map" -o GetEncoder\GetEncoder.axf
