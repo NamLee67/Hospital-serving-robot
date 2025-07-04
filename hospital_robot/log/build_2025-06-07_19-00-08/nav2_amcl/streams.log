@@ -1,0 +1,54 @@
+[0.360s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_amcl': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_amcl -- -j2 -l2
+[0.586s] [ 20%] Built target map_lib
+[0.589s] [ 50%] Built target pf_lib
+[0.671s] [ 70%] Built target sensors_lib
+[0.736s] [ 83%] Built target motions_lib
+[0.836s] [ 91%] Built target amcl_core
+[0.918s] [100%] Built target amcl
+[0.943s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_amcl -- -j2 -l2
+[0.953s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_amcl': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_amcl
+[0.965s] -- Install configuration: "Release"
+[0.967s] -- Execute custom install script
+[0.973s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/lib/libpf_lib.so
+[0.976s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/lib/libmap_lib.so
+[0.980s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/lib/libmotions_lib.so
+[0.984s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/lib/libsensors_lib.so
+[0.985s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/lib/libamcl_core.so
+[0.991s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/lib/nav2_amcl/amcl
+[0.993s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[0.994s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[0.996s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[0.998s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[1.000s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[1.001s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[1.003s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[1.004s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[1.006s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[1.008s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[1.009s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[1.010s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[1.014s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[1.024s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[1.026s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[1.029s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl//plugins.xml
+[1.033s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[1.034s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[1.037s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[1.038s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[1.039s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[1.041s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[1.042s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[1.045s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[1.045s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[1.047s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[1.047s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/package.dsv
+[1.068s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[1.071s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[1.072s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[1.074s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.077s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[1.077s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.079s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[1.079s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[1.083s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_amcl/share/nav2_amcl/package.xml
+[1.091s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_amcl

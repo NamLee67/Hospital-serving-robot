@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_typesupport_introspection_cpp/map_msgs/srv/detail/get_map_roi__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,49 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_core[0m
+[  2%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o[0m
+[  6%] Built target gtest
+[  7%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/plugins/costmap_filters/costmap_filter.cpp.o[0m
+[  8%] [32m[1mLinking CXX shared library libnav2_costmap_2d_core.so[0m
+[ 21%] Built target nav2_costmap_2d_core
+[ 23%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library liblayers.so[0m
+[ 31%] Built target layers
+[ 32%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libfilters.so[0m
+[ 36%] Built target filters
+[ 37%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[ 41%] Built target nav2_costmap_2d_client
+[ 42%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[ 43%] Built target nav2_costmap_2d_markers
+[ 45%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[ 46%] Built target nav2_costmap_2d_cloud
+[ 47%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::toPointVector(std::shared_ptr<geometry_msgs::msg::Polygon_<std::allocator<void> > >)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::transformFootprint(double, double, double, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > const&, geometry_msgs::msg::PolygonStamped_<std::allocator<void> >&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::padFootprint(std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&, double)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::ClearCostmapService::~ClearCostmapService()'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::makeFootprintFromRadius(double)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::calculateMinAndMaxDistances(std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > const&, double&, double&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::makeFootprintFromString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::ClearCostmapService::ClearCostmapService(std::weak_ptr<rclcpp_lifecycle::LifecycleNode> const&, nav2_costmap_2d::Costmap2DROS&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::transformFootprint(double, double, double, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > const&, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/nav2_costmap_2d.dir/build.make:492: nav2_costmap_2d] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:427: CMakeFiles/nav2_costmap_2d.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

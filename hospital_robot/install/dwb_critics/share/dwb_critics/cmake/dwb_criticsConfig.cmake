@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/dwb_critics/ament_cmake_core/dwb_criticsConfig.cmake

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+
+
+    <xacro:include filename="hospital_robot.xacro" />
+    <xacro:include filename="gazebo_enviroment.xacro" />
+    <xacro:include filename="lidar_config.xacro" />
+    
+</robot>

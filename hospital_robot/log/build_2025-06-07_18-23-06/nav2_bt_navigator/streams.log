@@ -1,0 +1,109 @@
+[0.135s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_bt_navigator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_bt_navigator
+[0.275s] -- The C compiler identification is GNU 11.4.0
+[0.375s] -- The CXX compiler identification is GNU 11.4.0
+[0.389s] -- Detecting C compiler ABI info
+[0.563s] -- Detecting C compiler ABI info - done
+[0.574s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.576s] -- Detecting C compile features
+[0.577s] -- Detecting C compile features - done
+[0.583s] -- Detecting CXX compiler ABI info
+[0.764s] -- Detecting CXX compiler ABI info - done
+[0.776s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.781s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.784s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.998s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.136s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.191s] -- Found nav2_common: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_common/share/nav2_common/cmake)
+[1.196s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.281s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.291s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.306s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.462s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.468s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.510s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.528s] -- Looking for pthread.h
+[1.711s] -- Looking for pthread.h - found
+[1.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.883s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.885s] -- Found Threads: TRUE  
+[1.966s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.047s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.082s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.128s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.149s] -- Found nav2_behavior_tree: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[2.356s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.364s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.364s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.457s] -- Found nav2_core: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_core/share/nav2_core/cmake)
+[2.642s] -- Setting build type to Release as none was specified.
+[3.361s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.503s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.527s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.529s] -- Configured cppcheck include dirs: /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_bt_navigator/include
+[3.529s] -- Configured cppcheck exclude dirs and/or files: 
+[3.532s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.532s] -- Configured cpplint exclude dirs and/or files: 
+[3.534s] -- Added test 'lint_cmake' to check CMake code style
+[3.537s] -- Added test 'uncrustify' to check C / C++ code style
+[3.539s] -- Configured uncrustify additional arguments: 
+[3.539s] -- Added test 'xmllint' to check XML markup files
+[3.545s] -- Configuring done
+[3.725s] -- Generating done
+[3.751s] -- Build files have been written to: /home/huuhoa/hospital_robot/build/nav2_bt_navigator
+[3.775s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_bt_navigator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_bt_navigator
+[3.775s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_bt_navigator -- -j2 -l2
+[3.908s] [ 16%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o[0m
+[30.784s] [ 33%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o[0m
+[51.240s] [ 50%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o[0m
+[62.337s] [ 66%] [32m[1mLinking CXX shared library libbt_navigator_core.so[0m
+[63.233s] [ 66%] Built target bt_navigator_core
+[63.286s] [ 83%] [32mBuilding CXX object CMakeFiles/bt_navigator.dir/src/main.cpp.o[0m
+[70.502s] [100%] [32m[1mLinking CXX executable bt_navigator[0m
+[71.280s] [100%] Built target bt_navigator
+[71.299s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_bt_navigator -- -j2 -l2
+[71.315s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_bt_navigator
+[71.316s] -- Install configuration: "Release"
+[71.317s] -- Execute custom install script
+[71.318s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[71.333s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[71.347s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[71.363s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/include//nav2_bt_navigator/navigator.hpp
+[71.376s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/include//nav2_bt_navigator/navigators/navigate_through_poses.hpp
+[71.393s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/include//nav2_bt_navigator/navigators/navigate_to_pose.hpp
+[71.407s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[71.421s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/nav_to_pose_with_consistent_replanning_and_if_path_becomes_invalid.xml
+[71.435s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
+[71.450s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+[71.464s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_goal_patience_and_recovery.xml
+[71.478s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml
+[71.491s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[71.516s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_only_if_goal_is_updated.xml
+[71.516s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_only_if_path_becomes_invalid.xml
+[71.531s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[71.556s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[71.557s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/odometry_calibration.xml
+[71.571s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[71.585s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[71.598s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[71.613s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[71.638s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[71.639s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[71.655s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[71.668s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[71.682s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[71.695s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[71.709s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[71.726s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[71.736s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[71.750s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[71.764s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/ament_index/resource_index/rclcpp_components/nav2_bt_navigator
+[71.777s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.791s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[71.803s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.816s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[71.830s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[71.844s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[71.869s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_bt_navigator

@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000318] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000332] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000343] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000353] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000376] (-) JobUnselected: {'identifier': 'hospital_package'}
+[0.000386] (-) JobUnselected: {'identifier': 'map_msgs'}
+[0.000396] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000405] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000415] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000424] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000433] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000442] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000452] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000464] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000473] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000483] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000492] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000502] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000517] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000527] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000536] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.000546] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000555] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.000565] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.000574] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.000584] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.000595] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.000604] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.000614] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.000622] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.000643] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.000652] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.000661] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.000671] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.000680] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.000689] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.000698] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.000708] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.000717] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.000731] (nav2_costmap_2d) JobQueued: {'identifier': 'nav2_costmap_2d', 'dependencies': OrderedDict([('map_msgs', '/home/huuhoa/hospital_robot/install/map_msgs'), ('nav2_common', '/home/huuhoa/hospital_robot/install/nav2_common'), ('nav2_msgs', '/home/huuhoa/hospital_robot/install/nav2_msgs'), ('nav2_voxel_grid', '/home/huuhoa/hospital_robot/install/nav2_voxel_grid'), ('nav2_util', '/home/huuhoa/hospital_robot/install/nav2_util'), ('nav2_lifecycle_manager', '/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/huuhoa/hospital_robot/install/nav2_map_server')])}
+[0.000760] (nav2_costmap_2d) JobStarted: {'identifier': 'nav2_costmap_2d'}
+[0.081024] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'cmake'}
+[0.083047] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_costmap_2d', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_costmap_2d'], 'cwd': '/home/huuhoa/hospital_robot/build/nav2_costmap_2d', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huuhoa'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_smoother/lib:/home/huuhoa/hospital_robot/install/nav2_rotation_shim_controller/lib:/home/huuhoa/hospital_robot/install/nav2_graceful_controller/lib:/home/huuhoa/hospital_robot/install/nav2_controller/lib:/home/huuhoa/hospital_robot/install/dwb_plugins/lib:/home/huuhoa/hospital_robot/install/dwb_critics/lib:/home/huuhoa/hospital_robot/install/dwb_core/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_waypoint_follower/lib:/home/huuhoa/hospital_robot/install/nav2_theta_star_planner/lib:/home/huuhoa/hospital_robot/install/nav2_smac_planner/lib:/home/huuhoa/hospital_robot/install/nav2_regulated_pure_pursuit_controller/lib:/home/huuhoa/hospital_robot/install/nav2_planner/lib:/home/huuhoa/hospital_robot/install/nav2_navfn_planner/lib:/home/huuhoa/hospital_robot/install/nav2_mppi_controller/lib:/home/huuhoa/hospital_robot/install/nav2_constrained_smoother/lib:/home/huuhoa/hospital_robot/install/nav2_bt_navigator/lib:/home/huuhoa/hospital_robot/install/nav2_behaviors/lib:/home/huuhoa/hospital_robot/install/nav2_collision_monitor/lib:/home/huuhoa/hospital_robot/install/costmap_queue/lib:/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_velocity_smoother/lib:/home/huuhoa/hospital_robot/install/nav2_rviz_plugins/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_amcl/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huuhoa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '12173'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huuhoa/hospital_robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huuhoa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huuhoa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huuhoa/Qt5.12.8/5.12.8/gcc_64/bin:/home/huuhoa/Qt/5.12.8/gcc_64/bin:/home/huuhoa/Qt/5.12.8/gcc_64/bin:/opt/ros/humble/bin:/home/huuhoa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/huuhoa-VirtualBox:@/tmp/.ICE-unix/2399,unix/huuhoa-VirtualBox:/tmp/.ICE-unix/2399'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5c46c4e_98bb_4a26_b495_08079bfaa591'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5GVQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huuhoa/hospital_robot/install/nav2_system_tests:/home/huuhoa/hospital_robot/install/nav2_bringup:/home/huuhoa/hospital_robot/install/navigation2:/home/huuhoa/hospital_robot/install/nav2_smoother:/home/huuhoa/hospital_robot/install/nav2_rotation_shim_controller:/home/huuhoa/hospital_robot/install/nav2_graceful_controller:/home/huuhoa/hospital_robot/install/nav2_dwb_controller:/home/huuhoa/hospital_robot/install/nav2_controller:/home/huuhoa/hospital_robot/install/dwb_plugins:/home/huuhoa/hospital_robot/install/dwb_critics:/home/huuhoa/hospital_robot/install/dwb_core:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_waypoint_follower:/home/huuhoa/hospital_robot/install/nav2_theta_star_planner:/home/huuhoa/hospital_robot/install/nav2_smac_planner:/home/huuhoa/hospital_robot/install/nav2_regulated_pure_pursuit_controller:/home/huuhoa/hospital_robot/install/nav2_planner:/home/huuhoa/hospital_robot/install/nav2_navfn_planner:/home/huuhoa/hospital_robot/install/nav2_mppi_controller:/home/huuhoa/hospital_robot/install/nav2_constrained_smoother:/home/huuhoa/hospital_robot/install/nav2_bt_navigator:/home/huuhoa/hospital_robot/install/nav2_behaviors:/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_collision_monitor:/home/huuhoa/hospital_robot/install/costmap_queue:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_velocity_smoother:/home/huuhoa/hospital_robot/install/nav2_rviz_plugins:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_amcl:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huuhoa/hospital_robot/build/nav2_costmap_2d'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huuhoa/hospital_robot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav2_system_tests:/home/huuhoa/hospital_robot/install/nav2_bringup:/home/huuhoa/hospital_robot/install/navigation2:/home/huuhoa/hospital_robot/install/nav2_smoother:/home/huuhoa/hospital_robot/install/nav2_rotation_shim_controller:/home/huuhoa/hospital_robot/install/nav2_graceful_controller:/home/huuhoa/hospital_robot/install/nav2_dwb_controller:/home/huuhoa/hospital_robot/install/nav2_controller:/home/huuhoa/hospital_robot/install/dwb_plugins:/home/huuhoa/hospital_robot/install/dwb_critics:/home/huuhoa/hospital_robot/install/dwb_core:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_waypoint_follower:/home/huuhoa/hospital_robot/install/nav2_theta_star_planner:/home/huuhoa/hospital_robot/install/nav2_smac_planner:/home/huuhoa/hospital_robot/install/nav2_regulated_pure_pursuit_controller:/home/huuhoa/hospital_robot/install/nav2_planner:/home/huuhoa/hospital_robot/install/nav2_navfn_planner:/home/huuhoa/hospital_robot/install/nav2_mppi_controller:/home/huuhoa/hospital_robot/install/nav2_constrained_smoother:/home/huuhoa/hospital_robot/install/nav2_bt_navigator:/home/huuhoa/hospital_robot/install/nav2_behaviors:/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_collision_monitor:/home/huuhoa/hospital_robot/install/costmap_queue:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_velocity_smoother:/home/huuhoa/hospital_robot/install/nav2_rviz_plugins:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_amcl:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble')]), 'shell': False}
+[0.099465] (-) TimerEvent: {}
+[0.111100] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200988] (-) TimerEvent: {}
+[0.293710] (nav2_costmap_2d) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.306741] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.306915] (-) TimerEvent: {}
+[0.329172] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.331294] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.339677] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.356316] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.378663] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.407987] (-) TimerEvent: {}
+[0.443181] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.508628] (-) TimerEvent: {}
+[0.527780] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.534878] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.582349] (nav2_costmap_2d) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.607157] (nav2_costmap_2d) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.608835] (-) TimerEvent: {}
+[0.709906] (-) TimerEvent: {}
+[0.807498] (nav2_costmap_2d) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.813023] (nav2_costmap_2d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.813229] (-) TimerEvent: {}
+[0.913735] (-) TimerEvent: {}
+[0.971222] (nav2_costmap_2d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.973086] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.020078] (-) TimerEvent: {}
+[1.076777] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake)\n'}
+[1.123360] (-) TimerEvent: {}
+[1.136936] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[1.140985] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_common: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_common/share/nav2_common/cmake)\n'}
+[1.143951] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_msgs/share/nav2_msgs/cmake)\n'}
+[1.203763] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_util: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_util/share/nav2_util/cmake)\n'}
+[1.310600] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.314646] (-) TimerEvent: {}
+[1.314949] (nav2_costmap_2d) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.386713] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_voxel_grid: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)\n'}
+[1.403055] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.417752] (-) TimerEvent: {}
+[1.442750] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.459512] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.12 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[1.474137] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.522028] (-) TimerEvent: {}
+[1.586283] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[1.603599] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.3") \n'}
+[1.604002] (nav2_costmap_2d) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[1.623560] (-) TimerEvent: {}
+[1.724728] (-) TimerEvent: {}
+[1.825702] (-) TimerEvent: {}
+[1.927794] (-) TimerEvent: {}
+[2.028784] (-) TimerEvent: {}
+[2.129334] (-) TimerEvent: {}
+[2.175186] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.238710] (-) TimerEvent: {}
+[2.339496] (-) TimerEvent: {}
+[2.442041] (-) TimerEvent: {}
+[2.454077] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.502249] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.532794] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.542737] (-) TimerEvent: {}
+[2.643528] (-) TimerEvent: {}
+[2.654083] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.657579] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_costmap_2d/include>\n'}
+[2.657906] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.660326] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.663211] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.667831] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.672072] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.672228] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.674702] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.680120] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.743697] (-) TimerEvent: {}
+[2.844971] (-) TimerEvent: {}
+[2.945368] (-) TimerEvent: {}
+[3.045935] (-) TimerEvent: {}
+[3.146312] (-) TimerEvent: {}
+[3.246638] (-) TimerEvent: {}
+[3.348122] (-) TimerEvent: {}
+[3.448743] (-) TimerEvent: {}
+[3.549597] (-) TimerEvent: {}
+[3.649939] (-) TimerEvent: {}
+[3.677238] (nav2_costmap_2d) StdoutLine: {'line': b'-- Generating done\n'}
+[3.750583] (-) TimerEvent: {}
+[3.846828] (nav2_costmap_2d) StdoutLine: {'line': b'-- Build files have been written to: /home/huuhoa/hospital_robot/build/nav2_costmap_2d\n'}
+[3.850816] (-) TimerEvent: {}
+[3.866280] (nav2_costmap_2d) CommandEnded: {'returncode': 0}
+[3.868101] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'build'}
+[3.870989] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huuhoa/hospital_robot/build/nav2_costmap_2d', '--', '-j2', '-l2'], 'cwd': '/home/huuhoa/hospital_robot/build/nav2_costmap_2d', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huuhoa'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_smoother/lib:/home/huuhoa/hospital_robot/install/nav2_rotation_shim_controller/lib:/home/huuhoa/hospital_robot/install/nav2_graceful_controller/lib:/home/huuhoa/hospital_robot/install/nav2_controller/lib:/home/huuhoa/hospital_robot/install/dwb_plugins/lib:/home/huuhoa/hospital_robot/install/dwb_critics/lib:/home/huuhoa/hospital_robot/install/dwb_core/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_waypoint_follower/lib:/home/huuhoa/hospital_robot/install/nav2_theta_star_planner/lib:/home/huuhoa/hospital_robot/install/nav2_smac_planner/lib:/home/huuhoa/hospital_robot/install/nav2_regulated_pure_pursuit_controller/lib:/home/huuhoa/hospital_robot/install/nav2_planner/lib:/home/huuhoa/hospital_robot/install/nav2_navfn_planner/lib:/home/huuhoa/hospital_robot/install/nav2_mppi_controller/lib:/home/huuhoa/hospital_robot/install/nav2_constrained_smoother/lib:/home/huuhoa/hospital_robot/install/nav2_bt_navigator/lib:/home/huuhoa/hospital_robot/install/nav2_behaviors/lib:/home/huuhoa/hospital_robot/install/nav2_collision_monitor/lib:/home/huuhoa/hospital_robot/install/costmap_queue/lib:/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_velocity_smoother/lib:/home/huuhoa/hospital_robot/install/nav2_rviz_plugins/lib:/home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib:/home/huuhoa/hospital_robot/install/nav2_amcl/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huuhoa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '12173'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huuhoa/hospital_robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huuhoa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huuhoa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huuhoa/Qt5.12.8/5.12.8/gcc_64/bin:/home/huuhoa/Qt/5.12.8/gcc_64/bin:/home/huuhoa/Qt/5.12.8/gcc_64/bin:/opt/ros/humble/bin:/home/huuhoa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/huuhoa-VirtualBox:@/tmp/.ICE-unix/2399,unix/huuhoa-VirtualBox:/tmp/.ICE-unix/2399'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5c46c4e_98bb_4a26_b495_08079bfaa591'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5GVQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huuhoa/hospital_robot/install/nav2_system_tests:/home/huuhoa/hospital_robot/install/nav2_bringup:/home/huuhoa/hospital_robot/install/navigation2:/home/huuhoa/hospital_robot/install/nav2_smoother:/home/huuhoa/hospital_robot/install/nav2_rotation_shim_controller:/home/huuhoa/hospital_robot/install/nav2_graceful_controller:/home/huuhoa/hospital_robot/install/nav2_dwb_controller:/home/huuhoa/hospital_robot/install/nav2_controller:/home/huuhoa/hospital_robot/install/dwb_plugins:/home/huuhoa/hospital_robot/install/dwb_critics:/home/huuhoa/hospital_robot/install/dwb_core:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_waypoint_follower:/home/huuhoa/hospital_robot/install/nav2_theta_star_planner:/home/huuhoa/hospital_robot/install/nav2_smac_planner:/home/huuhoa/hospital_robot/install/nav2_regulated_pure_pursuit_controller:/home/huuhoa/hospital_robot/install/nav2_planner:/home/huuhoa/hospital_robot/install/nav2_navfn_planner:/home/huuhoa/hospital_robot/install/nav2_mppi_controller:/home/huuhoa/hospital_robot/install/nav2_constrained_smoother:/home/huuhoa/hospital_robot/install/nav2_bt_navigator:/home/huuhoa/hospital_robot/install/nav2_behaviors:/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_collision_monitor:/home/huuhoa/hospital_robot/install/costmap_queue:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_velocity_smoother:/home/huuhoa/hospital_robot/install/nav2_rviz_plugins:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_amcl:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huuhoa/hospital_robot/build/nav2_costmap_2d'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huuhoa/hospital_robot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav2_system_tests:/home/huuhoa/hospital_robot/install/nav2_bringup:/home/huuhoa/hospital_robot/install/navigation2:/home/huuhoa/hospital_robot/install/nav2_smoother:/home/huuhoa/hospital_robot/install/nav2_rotation_shim_controller:/home/huuhoa/hospital_robot/install/nav2_graceful_controller:/home/huuhoa/hospital_robot/install/nav2_dwb_controller:/home/huuhoa/hospital_robot/install/nav2_controller:/home/huuhoa/hospital_robot/install/dwb_plugins:/home/huuhoa/hospital_robot/install/dwb_critics:/home/huuhoa/hospital_robot/install/dwb_core:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_waypoint_follower:/home/huuhoa/hospital_robot/install/nav2_theta_star_planner:/home/huuhoa/hospital_robot/install/nav2_smac_planner:/home/huuhoa/hospital_robot/install/nav2_regulated_pure_pursuit_controller:/home/huuhoa/hospital_robot/install/nav2_planner:/home/huuhoa/hospital_robot/install/nav2_navfn_planner:/home/huuhoa/hospital_robot/install/nav2_mppi_controller:/home/huuhoa/hospital_robot/install/nav2_constrained_smoother:/home/huuhoa/hospital_robot/install/nav2_bt_navigator:/home/huuhoa/hospital_robot/install/nav2_behaviors:/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_collision_monitor:/home/huuhoa/hospital_robot/install/costmap_queue:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_velocity_smoother:/home/huuhoa/hospital_robot/install/nav2_rviz_plugins:/home/huuhoa/hospital_robot/install/nav2_behavior_tree:/home/huuhoa/hospital_robot/install/nav2_amcl:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble')]), 'shell': False}
+[3.951600] (-) TimerEvent: {}
+[4.005551] (nav2_costmap_2d) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[4.013762] (nav2_costmap_2d) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o\x1b[0m\n'}
+[4.060000] (-) TimerEvent: {}
+[4.681469] (-) TimerEvent: {}
+[4.733721] (nav2_costmap_2d) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o\x1b[0m\n'}
+[4.791099] (-) TimerEvent: {}
+[4.894323] (-) TimerEvent: {}
+[4.997540] (-) TimerEvent: {}
+[5.255250] (-) TimerEvent: {}
+[5.288065] (nav2_costmap_2d) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.358677] (-) TimerEvent: {}
+[5.426927] (nav2_costmap_2d) StdoutLine: {'line': b'[  4%] Built target gtest_main\n'}
+[5.833251] (-) TimerEvent: {}
+[5.880942] (nav2_costmap_2d) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[6.069365] (-) TimerEvent: {}
+[6.120348] (nav2_costmap_2d) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o\x1b[0m\n'}
+[6.174775] (-) TimerEvent: {}
+[6.511652] (-) TimerEvent: {}
+[9.195525] (-) TimerEvent: {}
+[10.180944] (-) TimerEvent: {}
+[10.287331] (-) TimerEvent: {}
+[10.393391] (-) TimerEvent: {}
+[10.495485] (-) TimerEvent: {}
+[10.582934] (nav2_costmap_2d) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o\x1b[0m\n'}
+[10.596016] (-) TimerEvent: {}
+[10.982247] (-) TimerEvent: {}
+[14.648189] (-) TimerEvent: {}
+[14.753741] (-) TimerEvent: {}
+[14.863329] (-) TimerEvent: {}
+[14.968411] (-) TimerEvent: {}
+[14.998356] (nav2_costmap_2d) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o\x1b[0m\n'}
+[15.156143] (-) TimerEvent: {}
+[15.261259] (-) TimerEvent: {}
+[15.442324] (-) TimerEvent: {}
+[15.546974] (-) TimerEvent: {}
+[15.663157] (-) TimerEvent: {}
+[15.971934] (-) TimerEvent: {}
+[16.149510] (-) TimerEvent: {}
+[16.173361] (nav2_costmap_2d) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[16.252160] (-) TimerEvent: {}
+[16.328436] (nav2_costmap_2d) StdoutLine: {'line': b'[ 10%] Built target gtest\n'}
+[16.352514] (nav2_costmap_2d) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o\x1b[0m\n'}
+[16.352766] (-) TimerEvent: {}
+[26.141212] (-) TimerEvent: {}
+[27.678283] (-) TimerEvent: {}
+[27.783951] (-) TimerEvent: {}
+[27.905872] (-) TimerEvent: {}
+[28.023539] (-) TimerEvent: {}
+[28.139421] (-) TimerEvent: {}
+[28.263899] (-) TimerEvent: {}
+[28.364809] (-) TimerEvent: {}
+[30.100806] (-) TimerEvent: {}
+[36.104246] (-) TimerEvent: {}
+[36.206739] (-) TimerEvent: {}
+[40.909720] (-) TimerEvent: {}
+[41.024797] (-) TimerEvent: {}
+[41.242437] (-) TimerEvent: {}
+[41.287222] (nav2_costmap_2d) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o\x1b[0m\n'}
+[41.347722] (-) TimerEvent: {}
+[42.158750] (-) TimerEvent: {}
+[42.189389] (nav2_costmap_2d) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o\x1b[0m\n'}
+[42.278973] (-) TimerEvent: {}
+[42.542824] (-) TimerEvent: {}
+[44.315851] (-) TimerEvent: {}
+[46.019428] (-) TimerEvent: {}
+[46.437427] (-) TimerEvent: {}
+[46.504180] (nav2_costmap_2d) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o\x1b[0m\n'}
+[46.539067] (-) TimerEvent: {}
+[52.318922] (-) TimerEvent: {}
+[52.402425] (nav2_costmap_2d) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o\x1b[0m\n'}
+[52.419198] (-) TimerEvent: {}
+[52.520289] (-) TimerEvent: {}
+[52.620844] (-) TimerEvent: {}
+[52.721743] (-) TimerEvent: {}
+[52.822459] (-) TimerEvent: {}
+[52.923181] (-) TimerEvent: {}
+[53.024234] (-) TimerEvent: {}
+[53.124632] (-) TimerEvent: {}
+[53.226237] (-) TimerEvent: {}
+[53.327103] (-) TimerEvent: {}
+[53.430170] (-) TimerEvent: {}
+[53.531909] (-) TimerEvent: {}
+[53.634193] (-) TimerEvent: {}
+[53.737866] (-) TimerEvent: {}
+[59.903295] (-) TimerEvent: {}
+[60.010297] (-) TimerEvent: {}
+[60.155239] (-) TimerEvent: {}
+[60.282179] (-) TimerEvent: {}
+[60.921138] (-) TimerEvent: {}
+[61.023781] (-) TimerEvent: {}
+[61.128268] (-) TimerEvent: {}
+[61.197396] (nav2_costmap_2d) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o\x1b[0m\n'}
+[61.229035] (-) TimerEvent: {}
+[65.840879] (-) TimerEvent: {}
+[68.602420] (-) TimerEvent: {}
+[70.508980] (-) TimerEvent: {}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

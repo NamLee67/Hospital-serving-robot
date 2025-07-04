@@ -1,0 +1,113 @@
+[0.049s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_rviz_plugins': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_rviz_plugins
+[0.069s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.249s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.263s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.297s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.302s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.318s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.388s] -- Found nav2_util: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_util/share/nav2_util/cmake)
+[0.533s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.562s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.661s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.664s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.718s] -- Found nav2_lifecycle_manager: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[0.767s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.808s] -- Found rviz_common: 11.2.17 (/opt/ros/humble/share/rviz_common/cmake)
+[0.819s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.830s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.832s] -- Found OGRE
+[0.832s] --   static     : OFF
+[0.832s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.832s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.832s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.832s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.832s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.832s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.832s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.832s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.832s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.832s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.832s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.888s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.898s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.943s] -- Found X11: /usr/include   
+[0.951s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.094s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.094s] -- Looking for gethostbyname
+[1.225s] -- Looking for gethostbyname - found
+[1.226s] -- Looking for connect
+[1.366s] -- Looking for connect - found
+[1.367s] -- Looking for remove
+[1.511s] -- Looking for remove - found
+[1.511s] -- Looking for shmat
+[1.671s] -- Looking for shmat - found
+[1.671s] -- Looking for IceConnectionNumber in ICE
+[1.808s] -- Looking for IceConnectionNumber in ICE - found
+[1.970s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.078s] -- Found rviz_default_plugins: 11.2.17 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[2.262s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.383s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.398s] -- Configured cppcheck include dirs: /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_rviz_plugins/include
+[2.400s] -- Configured cppcheck exclude dirs and/or files: 
+[2.400s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.400s] -- Configured cpplint exclude dirs and/or files: 
+[2.401s] -- Added test 'lint_cmake' to check CMake code style
+[2.403s] -- Added test 'uncrustify' to check C / C++ code style
+[2.403s] -- Configured uncrustify additional arguments: 
+[2.405s] -- Added test 'xmllint' to check XML markup files
+[2.408s] -- Configuring done
+[2.563s] -- Generating done
+[2.573s] -- Build files have been written to: /home/huuhoa/hospital_robot/build/nav2_rviz_plugins
+[2.586s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_rviz_plugins
+[2.588s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_rviz_plugins': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_rviz_plugins -- -j2 -l2
+[2.694s] [ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[4.433s] [ 14%] Built target nav2_rviz_plugins_autogen
+[4.973s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[5.014s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[34.650s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[62.815s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[69.621s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[85.131s] [100%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[91.724s] [100%] Built target nav2_rviz_plugins
+[91.908s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_rviz_plugins -- -j2 -l2
+[91.910s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_rviz_plugins': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_rviz_plugins
+[91.910s] -- Install configuration: ""
+[91.910s] -- Execute custom install script
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins//plugins_description.xml
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[91.910s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[91.923s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[91.937s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[91.951s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[91.968s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[91.983s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[91.997s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[92.010s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[92.025s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[92.048s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[92.063s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[92.079s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[92.094s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[92.109s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[92.124s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[92.145s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[92.161s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[92.183s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[92.195s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[92.214s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[92.230s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[92.246s] -- Installing: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[92.268s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[92.268s] -- Installing: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[92.269s] -- Installing: /home/huuhoa/hospital_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[92.282s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_rviz_plugins

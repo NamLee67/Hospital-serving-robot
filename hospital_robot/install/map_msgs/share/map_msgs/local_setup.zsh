@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/ament_cmake_environment_hooks/local_setup.zsh

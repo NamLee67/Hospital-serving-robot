@@ -1,0 +1,53 @@
+[0.045s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_map_server': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_map_server -- -j2 -l2
+[0.203s] [  5%] Built target gtest_main
+[0.216s] [ 13%] Built target map_io
+[0.280s] [ 19%] Built target gtest
+[0.319s] [ 30%] Built target map_server_core
+[0.359s] [ 38%] Built target test_map_saver_publisher
+[0.390s] [ 47%] Built target test_map_saver_cli
+[0.457s] [ 52%] Built target map_saver_cli
+[0.461s] [ 58%] Built target map_server
+[0.521s] [ 63%] Built target map_saver_server
+[0.544s] [ 69%] Built target costmap_filter_info_server
+[0.608s] [ 75%] Built target test_costmap_filter_info_server
+[0.625s] [ 83%] Built target test_map_io
+[0.705s] [ 91%] Built target test_map_server_node
+[0.721s] [100%] Built target test_map_saver_node
+[0.756s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_map_server -- -j2 -l2
+[0.769s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_map_server': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_map_server
+[0.782s] -- Install configuration: "Release"
+[0.788s] -- Execute custom install script
+[0.791s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/lib/libmap_server_core.so
+[0.792s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/lib/libmap_io.so
+[0.793s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/lib/nav2_map_server/map_server
+[0.794s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[0.795s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[0.796s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[0.801s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[0.807s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[0.809s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[0.810s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[0.811s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[0.814s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[0.816s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[0.816s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[0.818s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[0.820s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[0.823s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[0.825s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[0.826s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[0.827s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[0.828s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[0.829s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[0.830s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[0.830s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[0.830s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/package.dsv
+[0.844s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[0.846s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[0.855s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.855s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[0.856s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.857s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[0.857s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[0.859s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_map_server/share/nav2_map_server/package.xml
+[0.868s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_map_server

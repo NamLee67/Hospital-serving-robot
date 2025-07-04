@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_cmake/srv/GetMapROI_Request.msg

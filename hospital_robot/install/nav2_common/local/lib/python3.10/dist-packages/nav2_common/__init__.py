@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_common/nav2_common/__init__.py

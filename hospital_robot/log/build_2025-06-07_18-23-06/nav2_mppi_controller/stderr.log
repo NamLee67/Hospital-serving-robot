@@ -1,0 +1,5 @@
+/tmp/ccaEg6EJ.s: Assembler messages:
+/tmp/ccaEg6EJ.s: Fatal error: CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: No space left on device
+gmake[2]: *** [CMakeFiles/mppi_controller.dir/build.make:118: CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/mppi_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,99 @@
+[0.057s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_costmap_2d -- -j2 -l2
+[0.190s] [  2%] Built target gtest_main
+[0.220s] [ 19%] Built target nav2_costmap_2d_core
+[0.288s] [ 21%] Built target gtest
+[0.309s] [ 31%] Built target layers
+[0.389s] [ 36%] Built target filters
+[0.390s] [ 41%] Built target nav2_costmap_2d_client
+[0.470s] [ 43%] Built target nav2_costmap_2d_markers
+[0.486s] [ 46%] Built target nav2_costmap_2d_cloud
+[0.539s] [ 48%] Built target nav2_costmap_2d
+[0.553s] [ 51%] Built target array_parser_test
+[0.620s] [ 53%] Built target costmap_convesion_test
+[0.631s] [ 56%] Built target collision_footprint_test
+[0.732s] [ 58%] Built target declare_parameter_test
+[0.795s] [ 60%] Built target costmap_filter_test
+[0.822s] [ 63%] Built target keepout_filter_test
+[0.924s] [ 65%] Built target speed_filter_test
+[0.931s] [ 68%] Built target binary_filter_test
+[1.061s] [ 70%] Built target copy_window_test
+[1.071s] [ 73%] Built target costmap_filter_service_test
+[1.172s] [ 75%] Built target footprint_tests_exec
+[1.213s] [ 80%] Built target denoise_layer_test
+[1.300s] [ 82%] Built target test_collision_checker_exec
+[1.350s] [ 85%] Built target inflation_tests_exec
+[1.428s] [ 87%] Built target obstacle_tests_exec
+[1.452s] [ 90%] Built target range_tests_exec
+[1.550s] [ 95%] Built target dyn_params_tests
+[1.552s] [ 95%] Built target costmap_bresenham_2d
+[1.651s] [ 97%] Built target order_layer
+[1.666s] [100%] Built target plugin_api_order
+[1.696s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_costmap_2d -- -j2 -l2
+[1.700s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_costmap_2d
+[1.731s] -- Install configuration: "Release"
+[1.732s] -- Execute custom install script
+[1.733s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[1.733s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[1.733s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[1.734s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[1.740s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/array_parser.hpp
+[1.743s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[1.743s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[1.750s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/liborder_layer.so
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[1.751s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[1.752s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[1.752s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[1.762s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[1.769s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[1.769s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[1.770s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.771s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[1.772s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[1.772s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[1.772s] -- Up-to-date: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/liblayers.so
+[1.772s] -- Up-to-date: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/libfilters.so
+[1.772s] -- Up-to-date: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[1.772s] -- Up-to-date: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[1.772s] -- Up-to-date: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[1.772s] -- Up-to-date: /home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[1.782s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_costmap_2d

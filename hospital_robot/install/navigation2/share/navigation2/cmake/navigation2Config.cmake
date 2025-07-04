@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/navigation2/ament_cmake_core/navigation2Config.cmake

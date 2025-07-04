@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/nav2_msgs/rosidl_generator_py/nav2_msgs/msg/_particle_cloud_s.c

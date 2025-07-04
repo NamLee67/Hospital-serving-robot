@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/hospital_package/ament_cmake_environment_hooks/local_setup.sh

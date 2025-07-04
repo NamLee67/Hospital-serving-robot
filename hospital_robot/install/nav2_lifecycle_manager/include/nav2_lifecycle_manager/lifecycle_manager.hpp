@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp

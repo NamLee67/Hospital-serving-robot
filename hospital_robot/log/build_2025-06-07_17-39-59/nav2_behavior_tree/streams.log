@@ -1,0 +1,316 @@
+[0.099s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_behavior_tree -- -j2 -l2
+[0.426s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o[0m
+[0.454s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m
+[15.060s] [  2%] [32m[1mLinking CXX shared library libnav2_behavior_tree.so[0m
+[16.326s] [  2%] Built target nav2_behavior_tree
+[19.870s] [  2%] [32m[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so[0m
+[20.167s] [  2%] Built target nav2_compute_path_to_pose_action_bt_node
+[20.243s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o[0m
+[29.507s] [  3%] [32m[1mLinking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so[0m
+[29.813s] [  3%] Built target nav2_compute_path_through_poses_action_bt_node
+[29.896s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_controller_cancel_bt_node.dir/plugins/action/controller_cancel_node.cpp.o[0m
+[36.986s] [  4%] [32m[1mLinking CXX shared library libnav2_controller_cancel_bt_node.so[0m
+[37.280s] [  4%] Built target nav2_controller_cancel_bt_node
+[37.350s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_wait_cancel_bt_node.dir/plugins/action/wait_cancel_node.cpp.o[0m
+[44.740s] [  5%] [32m[1mLinking CXX shared library libnav2_wait_cancel_bt_node.so[0m
+[45.053s] [  5%] Built target nav2_wait_cancel_bt_node
+[45.125s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_spin_cancel_bt_node.dir/plugins/action/spin_cancel_node.cpp.o[0m
+[52.116s] [  6%] [32m[1mLinking CXX shared library libnav2_spin_cancel_bt_node.so[0m
+[52.412s] [  6%] Built target nav2_spin_cancel_bt_node
+[52.475s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_back_up_cancel_bt_node.dir/plugins/action/back_up_cancel_node.cpp.o[0m
+[59.411s] [  7%] [32m[1mLinking CXX shared library libnav2_back_up_cancel_bt_node.so[0m
+[59.727s] [  7%] Built target nav2_back_up_cancel_bt_node
+[59.794s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_cancel_bt_node.dir/plugins/action/assisted_teleop_cancel_node.cpp.o[0m
+[66.939s] [  8%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_cancel_bt_node.so[0m
+[67.263s] [  8%] Built target nav2_assisted_teleop_cancel_bt_node
+[67.332s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_cancel_bt_node.dir/plugins/action/drive_on_heading_cancel_node.cpp.o[0m
+[74.274s] [  9%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_cancel_bt_node.so[0m
+[74.562s] [  9%] Built target nav2_drive_on_heading_cancel_bt_node
+[74.691s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_smooth_path_action_bt_node.dir/plugins/action/smooth_path_action.cpp.o[0m
+[83.892s] [  9%] [32m[1mLinking CXX shared library libnav2_smooth_path_action_bt_node.so[0m
+[84.206s] [  9%] Built target nav2_smooth_path_action_bt_node
+[84.281s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o[0m
+[93.119s] [ 10%] [32m[1mLinking CXX shared library libnav2_follow_path_action_bt_node.so[0m
+[93.409s] [ 10%] Built target nav2_follow_path_action_bt_node
+[93.477s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o[0m
+[102.255s] [ 11%] [32m[1mLinking CXX shared library libnav2_back_up_action_bt_node.so[0m
+[102.581s] [ 11%] Built target nav2_back_up_action_bt_node
+[102.653s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_bt_node.dir/plugins/action/drive_on_heading_action.cpp.o[0m
+[111.376s] [ 12%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_bt_node.so[0m
+[111.684s] [ 12%] Built target nav2_drive_on_heading_bt_node
+[111.758s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o[0m
+[120.748s] [ 13%] [32m[1mLinking CXX shared library libnav2_spin_action_bt_node.so[0m
+[121.132s] [ 13%] Built target nav2_spin_action_bt_node
+[121.206s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o[0m
+[129.969s] [ 14%] [32m[1mLinking CXX shared library libnav2_wait_action_bt_node.so[0m
+[130.284s] [ 14%] Built target nav2_wait_action_bt_node
+[130.349s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_action_bt_node.dir/plugins/action/assisted_teleop_action.cpp.o[0m
+[139.377s] [ 15%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_action_bt_node.so[0m
+[139.698s] [ 15%] Built target nav2_assisted_teleop_action_bt_node
+[139.758s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o[0m
+[149.196s] [ 16%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
+[149.492s] [ 16%] Built target nav2_clear_costmap_service_bt_node
+[149.562s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[164.187s] [ 17%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[164.577s] [ 17%] Built target nav2_is_stuck_condition_bt_node
+[164.639s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[170.260s] [ 18%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[170.527s] [ 18%] Built target nav2_transform_available_condition_bt_node
+[170.681s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[176.875s] [ 19%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[177.190s] [ 19%] Built target nav2_goal_reached_condition_bt_node
+[177.265s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_globally_updated_goal_condition_bt_node.dir/plugins/condition/globally_updated_goal_condition.cpp.o[0m
+[182.267s] [ 20%] [32m[1mLinking CXX shared library libnav2_globally_updated_goal_condition_bt_node.so[0m
+[182.486s] [ 20%] Built target nav2_globally_updated_goal_condition_bt_node
+[182.570s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o[0m
+[185.136s] [ 20%] [32m[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so[0m
+[185.389s] [ 20%] Built target nav2_goal_updated_condition_bt_node
+[185.468s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o[0m
+[192.980s] [ 21%] [32m[1mLinking CXX shared library libnav2_is_path_valid_condition_bt_node.so[0m
+[193.287s] [ 21%] Built target nav2_is_path_valid_condition_bt_node
+[193.355s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o[0m
+[198.992s] [ 22%] [32m[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so[0m
+[199.298s] [ 22%] Built target nav2_time_expired_condition_bt_node
+[199.360s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_path_expiring_timer_condition.dir/plugins/condition/path_expiring_timer_condition.cpp.o[0m
+[205.134s] [ 23%] [32m[1mLinking CXX shared library libnav2_path_expiring_timer_condition.so[0m
+[205.435s] [ 23%] Built target nav2_path_expiring_timer_condition
+[205.506s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o[0m
+[211.654s] [ 24%] [32m[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so[0m
+[211.990s] [ 24%] Built target nav2_distance_traveled_condition_bt_node
+[212.063s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o[0m
+[213.789s] [ 25%] [32m[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so[0m
+[214.029s] [ 25%] Built target nav2_initial_pose_received_condition_bt_node
+[214.089s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_charging_condition_bt_node.dir/plugins/condition/is_battery_charging_condition.cpp.o[0m
+[227.801s] [ 26%] [32m[1mLinking CXX shared library libnav2_is_battery_charging_condition_bt_node.so[0m
+[228.166s] [ 26%] Built target nav2_is_battery_charging_condition_bt_node
+[228.238s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o[0m
+[243.129s] [ 27%] [32m[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so[0m
+[243.472s] [ 27%] Built target nav2_is_battery_low_condition_bt_node
+[243.533s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o[0m
+[250.058s] [ 28%] [32m[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so[0m
+[250.316s] [ 28%] Built target nav2_reinitialize_global_localization_service_bt_node
+[250.380s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o[0m
+[253.359s] [ 29%] [32m[1mLinking CXX shared library libnav2_rate_controller_bt_node.so[0m
+[253.618s] [ 29%] Built target nav2_rate_controller_bt_node
+[253.692s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o[0m
+[259.388s] [ 30%] [32m[1mLinking CXX shared library libnav2_distance_controller_bt_node.so[0m
+[259.672s] [ 30%] Built target nav2_distance_controller_bt_node
+[259.739s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o[0m
+[266.186s] [ 31%] [32m[1mLinking CXX shared library libnav2_speed_controller_bt_node.so[0m
+[266.539s] [ 31%] Built target nav2_speed_controller_bt_node
+[266.604s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o[0m
+[273.740s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_local_action_bt_node.dir/plugins/action/truncate_path_local_action.cpp.o[0m
+[274.273s] [ 33%] [32m[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so[0m
+[274.573s] [ 33%] Built target nav2_truncate_path_action_bt_node
+[274.645s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o[0m
+[280.699s] [ 34%] [32m[1mLinking CXX shared library libnav2_truncate_path_local_action_bt_node.so[0m
+[281.051s] [ 34%] Built target nav2_truncate_path_local_action_bt_node
+[281.120s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_path_longer_on_approach_bt_node.dir/plugins/decorator/path_longer_on_approach.cpp.o[0m
+[287.723s] [ 35%] [32m[1mLinking CXX shared library libnav2_path_longer_on_approach_bt_node.so[0m
+[287.970s] [ 35%] Built target nav2_path_longer_on_approach_bt_node
+[289.058s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o[0m
+[290.574s] [ 35%] [32m[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so[0m
+[290.971s] [ 35%] Built target nav2_goal_updater_node_bt_node
+[291.068s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o[0m
+[292.500s] [ 37%] [32m[1mLinking CXX shared library libnav2_recovery_node_bt_node.so[0m
+[292.788s] [ 37%] Built target nav2_recovery_node_bt_node
+[292.876s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o[0m
+[300.755s] [ 38%] [32m[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so[0m
+[301.024s] [ 38%] Built target nav2_navigate_to_pose_action_bt_node
+[301.074s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o[0m
+[301.977s] [ 38%] [32m[1mLinking CXX shared library libnav2_navigate_through_poses_action_bt_node.so[0m
+[302.247s] [ 38%] Built target nav2_navigate_through_poses_action_bt_node
+[302.290s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_get_pose_from_path_action_bt_node.dir/plugins/action/get_pose_from_path_action.cpp.o[0m
+[307.064s] [ 39%] [32m[1mLinking CXX shared library libnav2_remove_passed_goals_action_bt_node.so[0m
+[307.345s] [ 39%] Built target nav2_remove_passed_goals_action_bt_node
+[307.793s] [ 40%] [32m[1mLinking CXX shared library libnav2_get_pose_from_path_action_bt_node.so[0m
+[307.956s] [ 40%] Built target nav2_get_pose_from_path_action_bt_node
+[308.008s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o[0m
+[309.855s] [ 41%] [32m[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so[0m
+[310.051s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o[0m
+[310.101s] [ 41%] Built target nav2_pipeline_sequence_bt_node
+[310.159s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o[0m
+[311.994s] [ 42%] [32m[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so[0m
+[312.033s] [ 43%] [32m[1mLinking CXX shared library libnav2_single_trigger_bt_node.so[0m
+[312.236s] [ 43%] Built target nav2_round_robin_node_bt_node
+[312.291s] [ 43%] Built target nav2_single_trigger_bt_node
+[312.292s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o[0m
+[312.360s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o[0m
+[327.068s] [ 44%] [32m[1mLinking CXX shared library libnav2_planner_selector_bt_node.so[0m
+[327.266s] [ 45%] [32m[1mLinking CXX shared library libnav2_controller_selector_bt_node.so[0m
+[327.461s] [ 45%] Built target nav2_planner_selector_bt_node
+[327.532s] [ 46%] [32mBuilding CXX object CMakeFiles/nav2_smoother_selector_bt_node.dir/plugins/action/smoother_selector_node.cpp.o[0m
+[327.685s] [ 46%] Built target nav2_controller_selector_bt_node
+[327.733s] [ 46%] [32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o[0m
+[346.601s] [ 46%] [32m[1mLinking CXX shared library libnav2_smoother_selector_bt_node.so[0m
+[346.925s] [ 46%] Built target nav2_smoother_selector_bt_node
+[346.990s] [ 47%] [32m[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so[0m
+[347.347s] [ 47%] Built target nav2_goal_checker_selector_bt_node
+[347.418s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_progress_checker_selector_bt_node.dir/plugins/action/progress_checker_selector_node.cpp.o[0m
+[358.733s] [ 48%] [32m[1mLinking CXX shared library libnav2_progress_checker_selector_bt_node.so[0m
+[358.774s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_controller_bt_node.dir/plugins/decorator/goal_updated_controller.cpp.o[0m
+[359.076s] [ 49%] Built target nav2_progress_checker_selector_bt_node
+[359.138s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[360.384s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[361.136s] [ 50%] Built target gtest_main
+[361.202s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[364.245s] [ 50%] [32m[1mLinking CXX shared library libnav2_goal_updated_controller_bt_node.so[0m
+[364.497s] [ 50%] Built target nav2_goal_updated_controller_bt_node
+[370.436s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[370.553s] [ 50%] Built target gtest
+[370.618s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o[0m
+[370.618s] [ 51%] [32mBuilding CXX object test/CMakeFiles/test_bt_conversions.dir/test_bt_conversions.cpp.o[0m
+[375.820s] [ 51%] [32m[1mLinking CXX executable test_bt_conversions[0m
+[376.276s] [ 51%] Built target test_bt_conversions
+[376.329s] [ 51%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o[0m
+[380.181s] [ 52%] [32m[1mLinking CXX executable test_condition_distance_traveled[0m
+[380.604s] [ 52%] Built target test_condition_distance_traveled
+[380.676s] [ 52%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_path_expiring_timer.dir/test_path_expiring_timer.cpp.o[0m
+[385.930s] [ 52%] [32m[1mLinking CXX executable test_condition_time_expired[0m
+[386.467s] [ 52%] Built target test_condition_time_expired
+[386.551s] [ 52%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o[0m
+[390.358s] [ 53%] [32m[1mLinking CXX executable test_condition_path_expiring_timer[0m
+[390.854s] [ 53%] Built target test_condition_path_expiring_timer
+[391.660s] [ 53%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o[0m
+[396.659s] [ 54%] [32m[1mLinking CXX executable test_condition_goal_reached[0m
+[397.109s] [ 54%] Built target test_condition_goal_reached
+[397.182s] [ 54%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_globally_updated_goal.dir/test_globally_updated_goal.cpp.o[0m
+[401.333s] [ 55%] [32m[1mLinking CXX executable test_condition_goal_updated[0m
+[401.799s] [ 55%] Built target test_condition_goal_updated
+[401.893s] [ 55%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o[0m
+[406.887s] [ 56%] [32m[1mLinking CXX executable test_condition_globally_updated_goal[0m
+[407.392s] [ 56%] Built target test_condition_globally_updated_goal
+[407.460s] [ 57%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[411.271s] [ 58%] [32m[1mLinking CXX executable test_condition_initial_pose_received[0m
+[411.726s] [ 58%] Built target test_condition_initial_pose_received
+[416.573s] [ 58%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[416.963s] [ 58%] Built target test_condition_transform_available
+[417.041s] [ 58%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[418.747s] [ 58%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_charging.dir/test_is_battery_charging.cpp.o[0m
+[427.866s] [ 59%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[428.315s] [ 59%] Built target test_condition_is_stuck
+[428.385s] [ 59%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[428.892s] [ 60%] [32m[1mLinking CXX executable test_condition_is_battery_charging[0m
+[429.309s] [ 60%] Built target test_condition_is_battery_charging
+[429.679s] [ 60%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o[0m
+[438.518s] [ 61%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[438.927s] [ 61%] Built target test_condition_is_battery_low
+[438.938s] [ 62%] [32m[1mLinking CXX executable test_condition_is_path_valid[0m
+[439.301s] [ 62%] Built target test_condition_is_path_valid
+[439.362s] [ 63%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[447.687s] [ 63%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[448.155s] [ 63%] Built target test_decorator_distance_controller
+[448.224s] [ 64%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[450.688s] [ 65%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[459.214s] [ 65%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[459.662s] [ 65%] Built target test_decorator_speed_controller
+[459.742s] [ 65%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[460.022s] [ 65%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[460.485s] [ 65%] Built target test_decorator_rate_controller
+[460.555s] [ 65%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[469.696s] [ 66%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[470.106s] [ 67%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[470.198s] [ 67%] Built target test_goal_updater_node
+[470.543s] [ 67%] Built target test_single_trigger_node
+[470.600s] [ 67%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o[0m
+[473.755s] [ 68%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o[0m
+[479.784s] [ 69%] [32m[1mLinking CXX executable test_goal_updated_controller[0m
+[480.240s] [ 69%] Built target test_goal_updated_controller
+[480.315s] [ 70%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[482.303s] [ 70%] [32m[1mLinking CXX executable test_decorator_path_longer_on_approach[0m
+[482.677s] [ 70%] Built target test_decorator_path_longer_on_approach
+[482.748s] [ 71%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[490.260s] [ 71%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[490.702s] [ 71%] Built target test_control_recovery_node
+[492.254s] [ 71%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[492.616s] [ 71%] Built target test_control_pipeline_sequence
+[492.677s] [ 72%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[494.735s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[502.368s] [ 73%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[502.823s] [ 73%] Built target test_control_round_robin_node
+[502.908s] [ 74%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[507.855s] [ 74%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[508.359s] [ 74%] Built target test_bt_action_node
+[512.511s] [ 74%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[512.862s] [ 74%] Built target test_action_spin_action
+[512.917s] [ 74%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[519.566s] [ 74%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o[0m
+[522.244s] [ 75%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[522.679s] [ 75%] Built target test_action_back_up_action
+[522.752s] [ 76%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[529.567s] [ 77%] [32m[1mLinking CXX executable test_action_drive_on_heading[0m
+[530.000s] [ 77%] Built target test_action_drive_on_heading
+[530.099s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o[0m
+[532.648s] [ 77%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[533.061s] [ 77%] Built target test_action_wait_action
+[533.129s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o[0m
+[540.067s] [ 78%] [32m[1mLinking CXX executable test_action_assisted_teleop_action[0m
+[540.497s] [ 78%] Built target test_action_assisted_teleop_action
+[540.569s] [ 79%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o[0m
+[543.450s] [ 80%] [32m[1mLinking CXX executable test_action_controller_cancel_action[0m
+[544.000s] [ 80%] Built target test_action_controller_cancel_action
+[544.073s] [ 81%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o[0m
+[550.598s] [ 81%] [32m[1mLinking CXX executable test_action_wait_cancel_action[0m
+[551.008s] [ 81%] Built target test_action_wait_cancel_action
+[551.081s] [ 81%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o[0m
+[554.294s] [ 81%] [32m[1mLinking CXX executable test_action_spin_cancel_action[0m
+[554.691s] [ 81%] Built target test_action_spin_cancel_action
+[554.763s] [ 81%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o[0m
+[561.038s] [ 82%] [32m[1mLinking CXX executable test_action_back_up_cancel_action[0m
+[561.427s] [ 82%] Built target test_action_back_up_cancel_action
+[564.298s] [ 83%] [32m[1mLinking CXX executable test_action_assisted_teleop_cancel_action[0m
+[564.666s] [ 83%] Built target test_action_assisted_teleop_cancel_action
+[564.734s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o[0m
+[568.774s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[574.165s] [ 84%] [32m[1mLinking CXX executable test_action_drive_on_heading_cancel_action[0m
+[574.585s] [ 84%] Built target test_action_drive_on_heading_cancel_action
+[574.660s] [ 85%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[579.539s] [ 86%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[579.953s] [ 86%] Built target test_action_clear_costmap_service
+[580.015s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[583.194s] [ 86%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[583.617s] [ 86%] Built target test_action_reinitialize_global_localization_service
+[583.708s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[591.497s] [ 87%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[591.930s] [ 87%] Built target test_action_compute_path_to_pose_action
+[594.700s] [ 88%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[595.044s] [ 88%] Built target test_action_compute_path_through_poses_action
+[595.102s] [ 89%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o[0m
+[604.203s] [ 89%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[606.892s] [ 89%] [32m[1mLinking CXX executable test_action_smooth_path_action[0m
+[607.288s] [ 89%] Built target test_action_smooth_path_action
+[607.356s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[614.926s] [ 90%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[615.307s] [ 90%] Built target test_action_follow_path_action
+[615.377s] [ 91%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[617.204s] [ 91%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[617.650s] [ 91%] Built target test_action_navigate_to_pose_action
+[617.710s] [ 91%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[625.557s] [ 91%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[625.863s] [ 92%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[626.021s] [ 92%] Built target test_action_navigate_through_poses_action
+[626.255s] [ 92%] Built target test_truncate_path_action
+[626.319s] [ 92%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o[0m
+[639.146s] [ 93%] [32m[1mLinking CXX executable test_truncate_path_local_action[0m
+[639.605s] [ 93%] Built target test_truncate_path_local_action
+[639.671s] [ 93%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[643.742s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_get_pose_from_path_action.dir/test_get_pose_from_path_action.cpp.o[0m
+[652.640s] [ 95%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[653.218s] [ 95%] Built target test_remove_passed_goals_action
+[653.315s] [ 95%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[653.700s] [ 95%] [32m[1mLinking CXX executable test_get_pose_from_path_action[0m
+[654.155s] [ 95%] Built target test_get_pose_from_path_action
+[654.238s] [ 96%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[663.595s] [ 97%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[664.032s] [ 97%] Built target test_planner_selector_node
+[664.094s] [ 97%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_smoother_selector_node.dir/test_smoother_selector_node.cpp.o[0m
+[664.475s] [ 97%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[664.907s] [ 97%] Built target test_controller_selector_node
+[665.727s] [ 97%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[674.364s] [ 98%] [32m[1mLinking CXX executable test_smoother_selector_node[0m
+[674.801s] [ 98%] Built target test_smoother_selector_node
+[674.855s] [ 98%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_progress_checker_selector_node.dir/test_progress_checker_selector_node.cpp.o[0m
+[675.886s] [ 99%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[676.286s] [ 99%] Built target test_goal_checker_selector_node
+[686.132s] [100%] [32m[1mLinking CXX executable test_progress_checker_selector_node[0m
+[686.493s] [100%] Built target test_progress_checker_selector_node

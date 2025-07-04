@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_typesupport_fastrtps_cpp/map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

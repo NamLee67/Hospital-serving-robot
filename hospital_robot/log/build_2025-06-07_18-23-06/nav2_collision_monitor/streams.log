@@ -1,0 +1,128 @@
+[0.100s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_collision_monitor
+[0.223s] -- The C compiler identification is GNU 11.4.0
+[0.313s] -- The CXX compiler identification is GNU 11.4.0
+[0.326s] -- Detecting C compiler ABI info
+[0.444s] -- Detecting C compiler ABI info - done
+[0.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.448s] -- Detecting C compile features
+[0.449s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.579s] -- Detecting CXX compiler ABI info - done
+[0.591s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.592s] -- Detecting CXX compile features
+[0.593s] -- Detecting CXX compile features - done
+[0.596s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.890s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.945s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.013s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.027s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.046s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.167s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.172s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.223s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.232s] -- Looking for pthread.h
+[1.368s] -- Looking for pthread.h - found
+[1.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.505s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.506s] -- Found Threads: TRUE  
+[1.598s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.634s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.682s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.689s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.791s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.814s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.816s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.817s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.820s] -- Found nav2_common: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_common/share/nav2_common/cmake)
+[1.821s] -- Found nav2_util: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_util/share/nav2_util/cmake)
+[1.985s] -- Found nav2_costmap_2d: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[2.127s] -- Setting build type to Release as none was specified.
+[2.213s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.338s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.539s] -- Configured cppcheck include dirs: /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_collision_monitor/include
+[2.539s] -- Configured cppcheck exclude dirs and/or files: 
+[2.539s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.541s] -- Added test 'lint_cmake' to check CMake code style
+[2.542s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.545s] -- Added test 'uncrustify' to check C / C++ code style
+[2.545s] -- Configured uncrustify additional arguments: 
+[2.546s] -- Added test 'xmllint' to check XML markup files
+[2.553s] -- Configuring done
+[2.855s] -- Generating done
+[2.942s] -- Build files have been written to: /home/huuhoa/hospital_robot/build/nav2_collision_monitor
+[2.943s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_collision_monitor
+[2.943s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_collision_monitor -- -j2 -l2
+[3.213s] [  4%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[3.248s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.958s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.153s] [ 13%] Built target gtest_main
+[14.213s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[30.606s] [ 21%] [32m[1mLinking CXX static library libgtest.a[0m
+[30.747s] [ 21%] Built target gtest
+[33.654s] [ 26%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[42.080s] [ 30%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[46.475s] [ 34%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[51.159s] [ 39%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[65.056s] [ 43%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[78.885s] [ 47%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[93.288s] [ 52%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[93.681s] [ 56%] [32m[1mLinking CXX shared library libcollision_monitor_core.so[0m
+[94.630s] [ 56%] Built target collision_monitor_core
+[94.695s] [ 60%] [32mBuilding CXX object CMakeFiles/collision_monitor.dir/src/main.cpp.o[0m
+[99.785s] [ 65%] [32m[1mLinking CXX executable collision_monitor[0m
+[100.280s] [ 65%] Built target collision_monitor
+[100.318s] [ 69%] [32mBuilding CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o[0m
+[104.766s] [ 73%] [32m[1mLinking CXX executable kinematics_test[0m
+[105.328s] [ 73%] Built target kinematics_test
+[105.392s] [ 78%] [32mBuilding CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o[0m
+[117.341s] [ 82%] [32mBuilding CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o[0m
+[117.616s] [ 86%] [32m[1mLinking CXX executable sources_test[0m
+[120.309s] [ 86%] Built target sources_test
+[126.553s] [ 91%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[142.137s] [ 95%] [32m[1mLinking CXX executable polygons_test[0m
+[142.828s] [ 95%] Built target polygons_test
+[161.252s] [100%] [32m[1mLinking CXX executable collision_monitor_node_test[0m
+[162.071s] [100%] Built target collision_monitor_node_test
+[162.106s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_collision_monitor -- -j2 -l2
+[162.111s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_collision_monitor
+[162.126s] -- Install configuration: "Release"
+[162.127s] -- Execute custom install script
+[162.128s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[162.144s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[162.160s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[162.182s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[162.198s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[162.214s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[162.231s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[162.247s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[162.262s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[162.286s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[162.303s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[162.323s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[162.337s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[162.355s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[162.373s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[162.394s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[162.412s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[162.428s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[162.444s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[162.461s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[162.484s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[162.509s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[162.528s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[162.542s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[162.558s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[162.573s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[162.602s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[162.618s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[162.634s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[162.655s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[162.674s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[162.692s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[162.713s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[162.730s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[162.753s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_utils/lib:/home/huuhoa/hospital_robot/install/dwb_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_collision_monitor

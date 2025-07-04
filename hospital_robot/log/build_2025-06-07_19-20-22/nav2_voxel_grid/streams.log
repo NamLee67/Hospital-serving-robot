@@ -1,0 +1,33 @@
+[0.024s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_voxel_grid -- -j2 -l2
+[0.225s] [ 20%] Built target gtest_main
+[0.280s] [ 40%] Built target voxel_grid
+[0.311s] [ 60%] Built target gtest
+[0.393s] [ 80%] Built target voxel_grid_tests
+[0.400s] [100%] Built target voxel_grid_bresenham_3d
+[0.412s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_voxel_grid -- -j2 -l2
+[0.417s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_voxel_grid
+[0.428s] -- Install configuration: "Release"
+[0.431s] -- Execute custom install script
+[0.438s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.439s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[0.449s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.449s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.451s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.453s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.454s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.458s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.460s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.460s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.460s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.461s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.468s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.468s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.468s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.474s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.475s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.476s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.477s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.478s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.479s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.480s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.484s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_voxel_grid

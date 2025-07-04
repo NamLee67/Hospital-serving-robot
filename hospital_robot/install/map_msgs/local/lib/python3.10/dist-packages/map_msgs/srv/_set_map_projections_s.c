@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_generator_py/map_msgs/srv/_set_map_projections_s.c

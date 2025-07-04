@@ -1,0 +1,3 @@
+gmake[2]: *** [test/CMakeFiles/test_node2d.dir/build.make:76: test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:304: test/CMakeFiles/test_node2d.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,4 @@
+Invoking command in '/home/huuhoa/hospital_robot/build/hospital_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/hospital_package -- -j2 -l2
+Invoked command in '/home/huuhoa/hospital_robot/build/hospital_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/hospital_package -- -j2 -l2
+Invoking command in '/home/huuhoa/hospital_robot/build/hospital_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/hospital_package
+Invoked command in '/home/huuhoa/hospital_robot/build/hospital_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/hospital_package

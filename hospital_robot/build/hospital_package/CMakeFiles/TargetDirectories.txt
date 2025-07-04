@@ -1,0 +1,9 @@
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/uninstall.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/hospital_package_uninstall.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/test.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/edit_cache.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/rebuild_cache.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/list_install_components.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/install.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/install/local.dir
+/home/huuhoa/hospital_robot/build/hospital_package/CMakeFiles/install/strip.dir

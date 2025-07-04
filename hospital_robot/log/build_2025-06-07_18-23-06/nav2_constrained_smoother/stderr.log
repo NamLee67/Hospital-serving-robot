@@ -1,0 +1,7 @@
+[01m[K/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_constrained_smoother/test/test_constrained_smoother.cpp:1134:1:[m[K [01;31m[Kfatal error: [m[Kerror writing to /tmp/ccADgsyM.s: No space left on device
+ 1134 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+compilation terminated.
+gmake[2]: *** [test/CMakeFiles/test_constrained_smoother.dir/build.make:76: test/CMakeFiles/test_constrained_smoother.dir/test_constrained_smoother.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:202: test/CMakeFiles/test_constrained_smoother.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

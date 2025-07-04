@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+e7126eab4cee3f6c8b0266313122626a CMakeFiles/hospital_package_uninstall

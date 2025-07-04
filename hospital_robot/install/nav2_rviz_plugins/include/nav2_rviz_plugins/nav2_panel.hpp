@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp

@@ -1,0 +1,330 @@
+[0.037s] Invoking command in '/home/huuhoa/hospital_robot/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav_2d_msgs
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.303s] -- The CXX compiler identification is GNU 11.4.0
+[0.316s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.449s] -- Detecting C compile features - done
+[0.449s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.584s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.588s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.915s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.940s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.946s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.956s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.973s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.043s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.480s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.242s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.245s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.279s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.279s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.279s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.279s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.313s] -- Found PythonExtra: .so  
+[2.448s] -- Configuring done
+[2.514s] -- Generating done
+[2.531s] -- Build files have been written to: /home/huuhoa/hospital_robot/build/nav_2d_msgs
+[2.547s] Invoked command in '/home/huuhoa/hospital_robot/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav_2d_msgs
+[2.558s] Invoking command in '/home/huuhoa/hospital_robot/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav_2d_msgs -- -j2 -l2
+[2.723s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.872s] [  1%] Built target nav_2d_msgs__cpp
+[3.897s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.832s] [  4%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[4.903s] [  5%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[4.979s] [  7%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[5.063s] [  8%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[5.137s] [  9%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[5.219s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[5.336s] [ 12%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[5.407s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[5.474s] [ 12%] Built target ament_cmake_python_symlink_nav_2d_msgs
+[5.494s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.923s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[6.229s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[6.525s] [ 18%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[6.829s] [ 19%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[7.131s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[7.445s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[7.776s] [ 23%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[7.865s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[7.896s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.582s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[8.980s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[9.349s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[9.784s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[10.287s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[10.729s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[11.180s] [ 35%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.363s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[11.395s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.055s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[12.580s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[13.032s] [ 40%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[13.499s] [ 42%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[13.974s] [ 43%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[14.402s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[14.842s] [ 46%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.969s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[15.020s] [ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.633s] [ 49%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[15.708s] [ 50%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[15.771s] [ 52%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[15.835s] [ 53%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[15.920s] [ 54%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[15.972s] [ 56%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[16.031s] [ 57%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.110s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[16.130s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.656s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[16.715s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[16.798s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[16.854s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[16.902s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[16.954s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[17.002s] [ 69%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[17.094s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_c
+[17.110s] [ 70%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.714s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[18.283s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[18.723s] [ 74%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[19.174s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[19.577s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[20.030s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[20.485s] [ 80%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.586s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[20.841s] running egg_info
+[20.842s] creating nav_2d_msgs.egg-info
+[20.843s] writing nav_2d_msgs.egg-info/PKG-INFO
+[20.843s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[20.843s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[20.844s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[20.849s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[20.850s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[20.886s] [ 80%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[20.926s] [ 80%] Built target nav_2d_msgs
+[20.983s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.959s] [ 81%] Built target nav_2d_msgs__py
+[22.025s] [ 83%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[22.170s] [ 84%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[22.317s] [ 85%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[22.464s] [ 87%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[22.604s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[22.750s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[22.888s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so[0m
+[23.009s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[23.060s] [ 92%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.208s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.288s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[23.330s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.469s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.548s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[23.619s] [ 98%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[23.808s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.883s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[23.922s] Invoked command in '/home/huuhoa/hospital_robot/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav_2d_msgs -- -j2 -l2
+[23.924s] Invoking command in '/home/huuhoa/hospital_robot/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav_2d_msgs
+[23.930s] -- Install configuration: ""
+[23.931s] -- Execute custom install script
+[23.933s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[23.949s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[23.963s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[23.976s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[23.991s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[24.010s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[24.027s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[24.048s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[24.061s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[24.074s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[24.087s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[24.099s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[24.122s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[24.123s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[24.146s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[24.161s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[24.176s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[24.192s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[24.205s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[24.220s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[24.238s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[24.253s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[24.267s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[24.283s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[24.300s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[24.312s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[24.335s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[24.349s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[24.366s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[24.384s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[24.398s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[24.420s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[24.437s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[24.454s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[24.471s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.486s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[24.505s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[24.523s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[24.548s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[24.564s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[24.579s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[24.595s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[24.611s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[24.632s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[24.649s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[24.668s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[24.682s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[24.701s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[24.721s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[24.748s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[24.764s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[24.779s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[24.794s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[24.818s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[24.866s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[24.885s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[24.900s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[24.917s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[24.936s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[24.951s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[24.969s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[24.979s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[24.992s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.008s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[25.023s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[25.042s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[25.068s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[25.083s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[25.097s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[25.112s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[25.126s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[25.146s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[25.160s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.174s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[25.188s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[25.202s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[25.214s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[25.228s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[25.256s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[25.272s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.291s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[25.307s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[25.322s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[25.336s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[25.354s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[25.371s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[25.386s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[25.400s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[25.415s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/PKG-INFO
+[25.429s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/SOURCES.txt
+[25.441s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/dependency_links.txt
+[25.457s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.18-py3.10.egg-info/top_level.txt
+[25.474s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[25.490s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[25.505s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.521s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[25.545s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[25.554s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[25.573s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[25.591s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[25.602s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[25.616s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[25.631s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[25.653s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[25.667s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[25.680s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[25.694s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[25.708s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[25.723s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[25.737s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[25.772s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.774s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.790s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.805s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.806s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.806s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.807s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[25.822s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[25.838s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[25.860s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[25.890s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[25.907s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[25.925s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[25.945s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[25.966s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[25.987s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[26.014s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[26.018s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[26.037s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[26.049s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[26.084s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[26.105s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[26.120s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[26.135s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[26.155s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[26.188s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[26.204s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[26.219s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[26.233s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[26.247s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[26.269s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[26.284s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.301s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.314s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.329s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.346s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.373s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.404s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[26.419s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[26.432s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[26.447s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[26.448s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[26.449s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[26.449s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.449s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[26.450s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.450s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[26.450s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.451s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[26.451s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[26.452s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[26.452s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[26.452s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[26.453s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[26.509s] Listing '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py'...
+[26.509s] Listing '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py'...
+[26.509s] Compiling '/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py'...
+[26.515s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[26.516s] -- Set runtime path of "/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so" to ""
+[26.516s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[26.517s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.517s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[26.517s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.518s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[26.518s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.519s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.520s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[26.520s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.520s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[26.521s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[26.521s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[26.522s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.522s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[26.523s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[26.523s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[26.523s] -- Installing: /home/huuhoa/hospital_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[26.527s] Invoked command in '/home/huuhoa/hospital_robot/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav_2d_msgs

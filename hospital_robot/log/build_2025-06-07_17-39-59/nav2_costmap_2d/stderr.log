@@ -1,0 +1,13 @@
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::toPointVector(std::shared_ptr<geometry_msgs::msg::Polygon_<std::allocator<void> > >)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::transformFootprint(double, double, double, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > const&, geometry_msgs::msg::PolygonStamped_<std::allocator<void> >&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::padFootprint(std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&, double)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::ClearCostmapService::~ClearCostmapService()'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::makeFootprintFromRadius(double)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::calculateMinAndMaxDistances(std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > const&, double&, double&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::makeFootprintFromString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::ClearCostmapService::ClearCostmapService(std::weak_ptr<rclcpp_lifecycle::LifecycleNode> const&, nav2_costmap_2d::Costmap2DROS&)'
+/usr/bin/ld: libnav2_costmap_2d_core.so: undefined reference to `nav2_costmap_2d::transformFootprint(double, double, double, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > const&, std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/nav2_costmap_2d.dir/build.make:492: nav2_costmap_2d] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:427: CMakeFiles/nav2_costmap_2d.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

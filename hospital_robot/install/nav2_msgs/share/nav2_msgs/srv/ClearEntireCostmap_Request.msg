@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/nav2_msgs/rosidl_cmake/srv/ClearEntireCostmap_Request.msg

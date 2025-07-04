@@ -1,0 +1,33 @@
+[0.089s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_voxel_grid -- -j2 -l2
+[0.291s] [ 20%] Built target gtest_main
+[0.340s] [ 40%] Built target voxel_grid
+[0.408s] [ 60%] Built target gtest
+[0.531s] [ 80%] Built target voxel_grid_tests
+[0.611s] [100%] Built target voxel_grid_bresenham_3d
+[0.644s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_voxel_grid -- -j2 -l2
+[0.647s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_voxel_grid
+[0.672s] -- Install configuration: "Release"
+[0.675s] -- Execute custom install script
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.681s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.682s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.705s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.705s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.706s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.706s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.706s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.707s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.708s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.722s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/nav_2d_utils:/home/huuhoa/hospital_robot/install/dwb_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/map_msgs:/home/huuhoa/hospital_robot/install/hospital_package:/home/huuhoa/hospital_robot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_voxel_grid

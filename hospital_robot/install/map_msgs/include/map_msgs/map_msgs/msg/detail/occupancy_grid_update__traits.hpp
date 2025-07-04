@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_generator_cpp/map_msgs/msg/detail/occupancy_grid_update__traits.hpp

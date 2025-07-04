@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_generator_cpp/map_msgs/srv/detail/projected_maps_info__traits.hpp

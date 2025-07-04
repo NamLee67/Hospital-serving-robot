@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_system_tests/src/updown/test_updown_launch.py

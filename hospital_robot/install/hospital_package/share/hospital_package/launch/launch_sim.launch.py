@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/hospital_package/launch/launch_sim.launch.py

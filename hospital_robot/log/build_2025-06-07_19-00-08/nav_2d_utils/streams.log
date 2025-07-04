@@ -1,0 +1,42 @@
+[0.053s] Invoking command in '/home/huuhoa/hospital_robot/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav_2d_utils -- -j2 -l2
+[0.236s] [ 12%] Built target conversions
+[0.237s] [ 25%] Built target path_ops
+[0.322s] [ 37%] Built target gtest_main
+[0.324s] [ 50%] Built target gtest
+[0.393s] [ 62%] Built target 2d_utils_tests
+[0.397s] [ 75%] Built target tf_help
+[0.443s] [ 87%] Built target path_ops_tests
+[0.468s] [100%] Built target tf_help_tests
+[0.526s] Invoked command in '/home/huuhoa/hospital_robot/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav_2d_utils -- -j2 -l2
+[0.534s] Invoking command in '/home/huuhoa/hospital_robot/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav_2d_utils
+[0.550s] -- Install configuration: "Release"
+[0.556s] -- Execute custom install script
+[0.566s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/lib/libconversions.so
+[0.567s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/lib/libpath_ops.so
+[0.568s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/lib/libtf_help.so
+[0.570s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[0.571s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[0.573s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[0.574s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[0.582s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[0.582s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[0.582s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[0.583s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[0.584s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[0.585s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[0.586s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[0.587s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[0.588s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[0.589s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[0.590s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[0.591s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[0.592s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[0.592s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[0.610s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[0.613s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.613s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.615s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.615s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[0.616s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[0.617s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[0.622s] Invoked command in '/home/huuhoa/hospital_robot/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav_2d_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav_2d_utils

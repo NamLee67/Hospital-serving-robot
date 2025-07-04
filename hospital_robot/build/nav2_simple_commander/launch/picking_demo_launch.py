@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_simple_commander/launch/picking_demo_launch.py

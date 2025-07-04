@@ -1,0 +1,4 @@
+Invoking command in '/home/huuhoa/hospital_robot/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_common -- -j2 -l2
+Invoked command in '/home/huuhoa/hospital_robot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_common -- -j2 -l2
+Invoking command in '/home/huuhoa/hospital_robot/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_common
+Invoked command in '/home/huuhoa/hospital_robot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_common

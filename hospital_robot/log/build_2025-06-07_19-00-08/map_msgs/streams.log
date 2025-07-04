@@ -1,0 +1,287 @@
+[0.069s] Invoking command in '/home/huuhoa/hospital_robot/build/map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/map_msgs -- -j2 -l2
+[0.342s] [  0%] Built target map_msgs__cpp
+[0.424s] [ 12%] Built target map_msgs__rosidl_generator_c
+[0.436s] [ 12%] Built target ament_cmake_python_symlink_map_msgs
+[0.536s] [ 24%] Built target map_msgs__rosidl_typesupport_cpp
+[0.549s] [ 36%] Built target map_msgs__rosidl_typesupport_fastrtps_c
+[0.623s] [ 47%] Built target map_msgs__rosidl_typesupport_c
+[0.645s] [ 59%] Built target map_msgs__rosidl_typesupport_introspection_c
+[0.698s] [ 70%] Built target map_msgs__rosidl_typesupport_fastrtps_cpp
+[0.752s] [ 82%] Built target map_msgs__rosidl_typesupport_introspection_cpp
+[0.840s] [ 82%] Built target map_msgs
+[0.946s] [ 83%] Built target map_msgs__py
+[1.022s] running egg_info
+[1.023s] writing map_msgs.egg-info/PKG-INFO
+[1.024s] writing dependency_links to map_msgs.egg-info/dependency_links.txt
+[1.028s] writing top-level names to map_msgs.egg-info/top_level.txt
+[1.030s] [ 94%] Built target map_msgs__rosidl_generator_py
+[1.032s] reading manifest file 'map_msgs.egg-info/SOURCES.txt'
+[1.039s] writing manifest file 'map_msgs.egg-info/SOURCES.txt'
+[1.091s] [ 94%] Built target ament_cmake_python_build_map_msgs_egg
+[1.105s] [ 96%] Built target map_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.149s] [ 98%] Built target map_msgs__rosidl_typesupport_introspection_c__pyext
+[1.163s] [100%] Built target map_msgs__rosidl_typesupport_c__pyext
+[1.178s] Invoked command in '/home/huuhoa/hospital_robot/build/map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/map_msgs -- -j2 -l2
+[1.184s] Invoking command in '/home/huuhoa/hospital_robot/build/map_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/map_msgs
+[1.195s] -- Install configuration: ""
+[1.202s] -- Execute custom install script
+[1.210s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/ament_index/resource_index/rosidl_interfaces/map_msgs
+[1.222s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__functions.h
+[1.223s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__struct.h
+[1.223s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__type_support.h
+[1.224s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__functions.h
+[1.226s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__struct.h
+[1.226s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__type_support.h
+[1.226s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__functions.h
+[1.227s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__struct.h
+[1.227s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__type_support.h
+[1.228s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__functions.h
+[1.229s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__struct.h
+[1.230s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__type_support.h
+[1.232s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/occupancy_grid_update.h
+[1.235s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/point_cloud2_update.h
+[1.237s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/projected_map.h
+[1.238s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/projected_map_info.h
+[1.240s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.245s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__functions.h
+[1.245s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__struct.h
+[1.245s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__type_support.h
+[1.247s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__functions.h
+[1.247s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__struct.h
+[1.247s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__type_support.h
+[1.248s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__functions.h
+[1.249s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__struct.h
+[1.249s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__type_support.h
+[1.250s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__functions.h
+[1.253s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__struct.h
+[1.254s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__type_support.h
+[1.255s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__functions.h
+[1.255s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__struct.h
+[1.257s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__type_support.h
+[1.258s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__functions.h
+[1.260s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__struct.h
+[1.260s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__type_support.h
+[1.261s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/get_map_roi.h
+[1.261s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/get_point_map.h
+[1.264s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/get_point_map_roi.h
+[1.264s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/projected_maps_info.h
+[1.264s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/save_map.h
+[1.264s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/set_map_projections.h
+[1.266s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/library_path.sh
+[1.269s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/library_path.dsv
+[1.271s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__rosidl_typesupport_fastrtps_c.h
+[1.271s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__rosidl_typesupport_fastrtps_c.h
+[1.275s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__rosidl_typesupport_fastrtps_c.h
+[1.275s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__rosidl_typesupport_fastrtps_c.h
+[1.276s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.276s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__rosidl_typesupport_fastrtps_c.h
+[1.276s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__rosidl_typesupport_fastrtps_c.h
+[1.276s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__rosidl_typesupport_fastrtps_c.h
+[1.276s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__rosidl_typesupport_fastrtps_c.h
+[1.278s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[1.278s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__rosidl_typesupport_fastrtps_c.h
+[1.279s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__rosidl_typesupport_introspection_c.h
+[1.280s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__rosidl_typesupport_introspection_c.h
+[1.281s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__rosidl_typesupport_introspection_c.h
+[1.283s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__rosidl_typesupport_introspection_c.h
+[1.283s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.284s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__rosidl_typesupport_introspection_c.h
+[1.286s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__rosidl_typesupport_introspection_c.h
+[1.287s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__rosidl_typesupport_introspection_c.h
+[1.289s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__builder.hpp
+[1.302s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__struct.hpp
+[1.302s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__traits.hpp
+[1.304s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__type_support.hpp
+[1.304s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__builder.hpp
+[1.307s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__struct.hpp
+[1.310s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__traits.hpp
+[1.310s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__type_support.hpp
+[1.311s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__builder.hpp
+[1.312s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__struct.hpp
+[1.312s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__traits.hpp
+[1.313s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__type_support.hpp
+[1.315s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__builder.hpp
+[1.317s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__struct.hpp
+[1.319s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__traits.hpp
+[1.319s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__type_support.hpp
+[1.319s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/occupancy_grid_update.hpp
+[1.320s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/point_cloud2_update.hpp
+[1.321s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/projected_map.hpp
+[1.323s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/projected_map_info.hpp
+[1.324s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.324s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__builder.hpp
+[1.325s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__struct.hpp
+[1.325s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__traits.hpp
+[1.327s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__type_support.hpp
+[1.328s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__builder.hpp
+[1.330s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__struct.hpp
+[1.330s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__traits.hpp
+[1.334s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__type_support.hpp
+[1.336s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__builder.hpp
+[1.337s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__struct.hpp
+[1.337s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__traits.hpp
+[1.338s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__type_support.hpp
+[1.339s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__builder.hpp
+[1.343s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__struct.hpp
+[1.346s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__traits.hpp
+[1.346s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__type_support.hpp
+[1.346s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__builder.hpp
+[1.346s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__struct.hpp
+[1.347s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__traits.hpp
+[1.348s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__type_support.hpp
+[1.351s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__builder.hpp
+[1.351s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__struct.hpp
+[1.352s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__traits.hpp
+[1.353s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__type_support.hpp
+[1.353s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/get_map_roi.hpp
+[1.358s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/get_point_map.hpp
+[1.359s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/get_point_map_roi.hpp
+[1.360s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/projected_maps_info.hpp
+[1.363s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/save_map.hpp
+[1.364s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/set_map_projections.hpp
+[1.365s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__rosidl_typesupport_fastrtps_cpp.hpp
+[1.369s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__rosidl_typesupport_fastrtps_cpp.hpp
+[1.372s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__rosidl_typesupport_fastrtps_cpp.hpp
+[1.373s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.373s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.374s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[1.374s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__rosidl_typesupport_fastrtps_cpp.hpp
+[1.376s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[1.376s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.376s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[1.383s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__rosidl_typesupport_fastrtps_cpp.hpp
+[1.389s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/point_cloud2_update__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/msg/detail/projected_map_info__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_map_roi__rosidl_typesupport_introspection_cpp.hpp
+[1.394s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map__rosidl_typesupport_introspection_cpp.hpp
+[1.394s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/get_point_map_roi__rosidl_typesupport_introspection_cpp.hpp
+[1.394s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/projected_maps_info__rosidl_typesupport_introspection_cpp.hpp
+[1.400s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[1.400s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/include/map_msgs/map_msgs/srv/detail/set_map_projections__rosidl_typesupport_introspection_cpp.hpp
+[1.400s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/pythonpath.sh
+[1.400s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/pythonpath.dsv
+[1.407s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs-2.1.0-py3.10.egg-info/PKG-INFO
+[1.414s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs-2.1.0-py3.10.egg-info/SOURCES.txt
+[1.428s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs-2.1.0-py3.10.egg-info/dependency_links.txt
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs-2.1.0-py3.10.egg-info/top_level.txt
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/__init__.py
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/_map_msgs_s.ep.rosidl_typesupport_c.c
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/_map_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/libmap_msgs__rosidl_generator_py.so
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/__init__.py
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_occupancy_grid_update.py
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_occupancy_grid_update_s.c
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_point_cloud2_update.py
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_point_cloud2_update_s.c
+[1.432s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_projected_map.py
+[1.436s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_projected_map_info.py
+[1.437s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_projected_map_info_s.c
+[1.438s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg/_projected_map_s.c
+[1.439s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/__init__.py
+[1.441s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_get_map_roi.py
+[1.442s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_get_map_roi_s.c
+[1.443s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_get_point_map.py
+[1.444s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_get_point_map_roi.py
+[1.445s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_get_point_map_roi_s.c
+[1.445s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_get_point_map_s.c
+[1.451s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_projected_maps_info.py
+[1.453s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_projected_maps_info_s.c
+[1.455s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_save_map.py
+[1.455s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_save_map_s.c
+[1.456s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_set_map_projections.py
+[1.457s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv/_set_map_projections_s.c
+[1.460s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.460s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.463s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.463s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/OccupancyGridUpdate.idl
+[1.464s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/PointCloud2Update.idl
+[1.466s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/ProjectedMapInfo.idl
+[1.468s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/ProjectedMap.idl
+[1.472s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetMapROI.idl
+[1.473s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMapROI.idl
+[1.474s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMap.idl
+[1.476s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/ProjectedMapsInfo.idl
+[1.476s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SaveMap.idl
+[1.476s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SetMapProjections.idl
+[1.477s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/OccupancyGridUpdate.msg
+[1.479s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/PointCloud2Update.msg
+[1.483s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/ProjectedMapInfo.msg
+[1.484s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/msg/ProjectedMap.msg
+[1.485s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetMapROI.srv
+[1.486s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetMapROI_Request.msg
+[1.490s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetMapROI_Response.msg
+[1.491s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMapROI.srv
+[1.491s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMapROI_Request.msg
+[1.492s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMapROI_Response.msg
+[1.492s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMap.srv
+[1.493s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMap_Request.msg
+[1.498s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/GetPointMap_Response.msg
+[1.498s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/ProjectedMapsInfo.srv
+[1.498s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/ProjectedMapsInfo_Request.msg
+[1.498s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/ProjectedMapsInfo_Response.msg
+[1.502s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SaveMap.srv
+[1.506s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SaveMap_Request.msg
+[1.506s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SaveMap_Response.msg
+[1.507s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SetMapProjections.srv
+[1.507s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SetMapProjections_Request.msg
+[1.508s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/srv/SetMapProjections_Response.msg
+[1.511s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/ament_index/resource_index/package_run_dependencies/map_msgs
+[1.513s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/ament_index/resource_index/parent_prefix_path/map_msgs
+[1.514s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/ament_prefix_path.sh
+[1.516s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/ament_prefix_path.dsv
+[1.517s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/path.sh
+[1.518s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/environment/path.dsv
+[1.520s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/local_setup.bash
+[1.523s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/local_setup.sh
+[1.523s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/local_setup.zsh
+[1.524s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/local_setup.dsv
+[1.524s] -- Symlinking: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/package.dsv
+[1.548s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/ament_index/resource_index/packages/map_msgs
+[1.549s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/rosidl_cmake-extras.cmake
+[1.550s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.551s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.553s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.554s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.556s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.556s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.558s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgsConfig.cmake
+[1.559s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgsConfig-version.cmake
+[1.559s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/package.xml
+[1.563s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_generator_c.so
+[1.567s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_typesupport_fastrtps_c.so
+[1.572s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_typesupport_introspection_c.so
+[1.575s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_typesupport_c.so
+[1.578s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.581s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_typesupport_introspection_cpp.so
+[1.587s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_typesupport_cpp.so
+[1.666s] Listing '/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs'...
+[1.666s] Listing '/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/msg'...
+[1.666s] Listing '/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages/map_msgs/srv'...
+[1.677s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/lib/libmap_msgs__rosidl_generator_py.so
+[1.680s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_generator_cExport.cmake
+[1.680s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.681s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.682s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.683s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.684s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.685s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_cExport.cmake
+[1.686s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.688s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_generator_cppExport.cmake
+[1.689s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.690s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.691s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.691s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.697s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_cppExport.cmake
+[1.697s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/map_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_generator_pyExport.cmake
+[1.701s] -- Up-to-date: /home/huuhoa/hospital_robot/install/map_msgs/share/map_msgs/cmake/export_map_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.706s] Invoked command in '/home/huuhoa/hospital_robot/build/map_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/map_msgs

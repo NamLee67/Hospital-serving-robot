@@ -1,0 +1,15 @@
+{
+  "package_name": "map_msgs",
+  "non_idl_tuples": [
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:msg/OccupancyGridUpdate.msg",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:msg/PointCloud2Update.msg",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:msg/ProjectedMapInfo.msg",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:msg/ProjectedMap.msg",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:srv/GetMapROI.srv",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:srv/GetPointMapROI.srv",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:srv/GetPointMap.srv",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:srv/ProjectedMapsInfo.srv",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:srv/SaveMap.srv",
+    "/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs:srv/SetMapProjections.srv"
+  ]
+}

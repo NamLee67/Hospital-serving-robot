@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/dwb_msgs/rosidl_generator_py/dwb_msgs/msg/_trajectory_score.py

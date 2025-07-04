@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_typesupport_fastrtps_c/map_msgs/srv/detail/get_point_map__rosidl_typesupport_fastrtps_c.h

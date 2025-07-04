@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/action/detail/navigate_to_pose__traits.hpp

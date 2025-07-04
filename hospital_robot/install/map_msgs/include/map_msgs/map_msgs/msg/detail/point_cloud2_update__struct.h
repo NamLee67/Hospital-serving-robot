@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_generator_c/map_msgs/msg/detail/point_cloud2_update__struct.h

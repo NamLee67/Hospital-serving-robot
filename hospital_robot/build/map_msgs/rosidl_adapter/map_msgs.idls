@@ -1,0 +1,10 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:msg/OccupancyGridUpdate.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:msg/PointCloud2Update.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:msg/ProjectedMapInfo.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:msg/ProjectedMap.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:srv/GetMapROI.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:srv/GetPointMapROI.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:srv/GetPointMap.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:srv/ProjectedMapsInfo.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:srv/SaveMap.idl
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_adapter/map_msgs:srv/SetMapProjections.idl

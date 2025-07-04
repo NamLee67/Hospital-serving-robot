@@ -1,0 +1,99 @@
+[0.069s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_smac_planner -- -j2 -l2
+[0.261s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[0.458s] [ 18%] Built target nav2_smac_planner
+[0.469s] [ 37%] Built target nav2_smac_planner_2d
+[0.495s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.526s] [ 40%] Built target gtest_main
+[0.558s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[0.566s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.602s] [ 44%] Built target gtest
+[0.628s] [ 62%] Built target nav2_smac_planner_lattice
+[0.631s] [35m[1mConsolidate compiler generated dependencies of target test_costmap_downsampler[0m
+[0.666s] [ 66%] Built target test_costmap_downsampler
+[0.725s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[0.755s] [ 69%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[21.153s] [ 71%] [32m[1mLinking CXX executable test_node2d[0m
+[21.528s] [ 72%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[23.359s] [ 72%] Built target test_node2d
+[23.371s] [ 72%] Built target test_nodehybrid
+[23.534s] [ 74%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[23.572s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[28.712s] [ 77%] [32m[1mLinking CXX executable test_collision_checker[0m
+[29.820s] [ 77%] Built target test_collision_checker
+[37.003s] [ 79%] [32m[1mLinking CXX executable test_nodebasic[0m
+[37.423s] [ 79%] Built target test_nodebasic
+[37.477s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[47.079s] [ 83%] [32m[1mLinking CXX executable test_a_star[0m
+[47.541s] [ 83%] Built target test_a_star
+[47.599s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[57.567s] [ 86%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[58.138s] [ 86%] Built target test_smac_hybrid
+[58.201s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[67.963s] [ 89%] [32m[1mLinking CXX executable test_smac_2d[0m
+[68.547s] [ 89%] Built target test_smac_2d
+[68.606s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[78.124s] [ 93%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[78.587s] [ 93%] Built target test_smac_lattice
+[78.627s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[89.870s] [ 96%] [32m[1mLinking CXX executable test_smoother[0m
+[94.160s] [ 96%] Built target test_smoother
+[94.218s] [ 98%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[104.597s] [100%] [32m[1mLinking CXX executable test_lattice_node[0m
+[105.218s] [100%] Built target test_lattice_node
+[105.254s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_smac_planner -- -j2 -l2
+[105.269s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_smac_planner
+[105.276s] -- Install configuration: "Release"
+[105.278s] -- Execute custom install script
+[105.278s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_hybrid.xml
+[105.292s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_2d.xml
+[105.308s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_lattice.xml
+[105.328s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[105.341s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[105.358s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[105.369s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[105.383s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[105.398s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[105.412s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[105.436s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[105.451s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[105.465s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[105.478s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[105.492s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[105.506s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[105.519s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[105.536s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[105.552s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[105.567s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[105.582s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[105.593s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[105.628s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[105.642s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[105.653s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[105.670s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[105.683s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[105.696s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[105.712s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[105.732s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[105.753s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[105.758s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[105.774s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[105.790s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[105.805s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[105.821s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[105.839s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[105.855s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[105.869s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[105.885s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[105.898s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[105.913s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[105.928s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[105.950s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[105.963s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[105.977s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[105.991s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[106.005s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.020s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[106.032s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[106.049s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[106.076s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_smac_planner

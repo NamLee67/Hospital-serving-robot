@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/nav2_simple_commander/launch/inspection_demo_launch.py

@@ -1,0 +1,241 @@
+[0.055s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_behavior_tree -- -j2 -l2
+[0.279s] [  1%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.295s] [  2%] Built target nav2_behavior_tree
+[0.391s] [  3%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.413s] [  4%] Built target nav2_controller_cancel_bt_node
+[0.475s] [  5%] Built target nav2_wait_cancel_bt_node
+[0.516s] [  6%] Built target nav2_spin_cancel_bt_node
+[0.591s] [  7%] Built target nav2_back_up_cancel_bt_node
+[0.597s] [  8%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.687s] [  9%] Built target nav2_drive_on_heading_cancel_bt_node
+[0.706s] [  9%] Built target nav2_smooth_path_action_bt_node
+[0.771s] [ 10%] Built target nav2_follow_path_action_bt_node
+[0.809s] [ 11%] Built target nav2_back_up_action_bt_node
+[0.863s] [ 12%] Built target nav2_drive_on_heading_bt_node
+[0.898s] [ 13%] Built target nav2_spin_action_bt_node
+[0.945s] [ 14%] Built target nav2_wait_action_bt_node
+[0.985s] [ 15%] Built target nav2_assisted_teleop_action_bt_node
+[1.040s] [ 16%] Built target nav2_clear_costmap_service_bt_node
+[1.065s] [ 17%] Built target nav2_is_stuck_condition_bt_node
+[1.120s] [ 18%] Built target nav2_transform_available_condition_bt_node
+[1.163s] [ 19%] Built target nav2_goal_reached_condition_bt_node
+[1.194s] [ 20%] Built target nav2_globally_updated_goal_condition_bt_node
+[1.264s] [ 20%] Built target nav2_goal_updated_condition_bt_node
+[1.282s] [ 21%] Built target nav2_is_path_valid_condition_bt_node
+[1.368s] [ 22%] Built target nav2_time_expired_condition_bt_node
+[1.395s] [ 23%] Built target nav2_path_expiring_timer_condition
+[1.466s] [ 24%] Built target nav2_distance_traveled_condition_bt_node
+[1.491s] [ 25%] Built target nav2_initial_pose_received_condition_bt_node
+[1.584s] [ 26%] Built target nav2_is_battery_low_condition_bt_node
+[1.592s] [ 27%] Built target nav2_is_battery_charging_condition_bt_node
+[1.666s] [ 28%] Built target nav2_rate_controller_bt_node
+[1.679s] [ 29%] Built target nav2_reinitialize_global_localization_service_bt_node
+[1.744s] [ 30%] Built target nav2_distance_controller_bt_node
+[1.756s] [ 31%] Built target nav2_speed_controller_bt_node
+[1.825s] [ 32%] Built target nav2_truncate_path_local_action_bt_node
+[1.835s] [ 33%] Built target nav2_truncate_path_action_bt_node
+[1.916s] [ 34%] Built target nav2_goal_updater_node_bt_node
+[1.926s] [ 35%] Built target nav2_path_longer_on_approach_bt_node
+[2.002s] [ 36%] Built target nav2_recovery_node_bt_node
+[2.010s] [ 37%] Built target nav2_navigate_to_pose_action_bt_node
+[2.085s] [ 38%] Built target nav2_navigate_through_poses_action_bt_node
+[2.095s] [ 39%] Built target nav2_remove_passed_goals_action_bt_node
+[2.144s] [ 40%] Built target nav2_pipeline_sequence_bt_node
+[2.189s] [ 41%] Built target nav2_get_pose_from_path_action_bt_node
+[2.233s] [ 42%] Built target nav2_round_robin_node_bt_node
+[2.273s] [ 43%] Built target nav2_single_trigger_bt_node
+[2.313s] [ 44%] Built target nav2_planner_selector_bt_node
+[2.384s] [ 45%] Built target nav2_smoother_selector_bt_node
+[2.395s] [ 46%] Built target nav2_controller_selector_bt_node
+[2.480s] [ 47%] Built target nav2_goal_checker_selector_bt_node
+[2.548s] [ 48%] Built target nav2_progress_checker_selector_bt_node
+[2.606s] [ 49%] Built target nav2_goal_updated_controller_bt_node
+[2.643s] [ 50%] Built target gtest_main
+[2.680s] [ 50%] Built target gtest
+[2.802s] [ 51%] Built target test_bt_conversions
+[2.847s] [ 52%] Built target test_condition_distance_traveled
+[2.984s] [ 52%] Built target test_condition_time_expired
+[3.015s] [ 53%] Built target test_condition_path_expiring_timer
+[3.124s] [ 54%] Built target test_condition_goal_reached
+[3.165s] [ 55%] Built target test_condition_goal_updated
+[3.300s] [ 56%] Built target test_condition_globally_updated_goal
+[3.349s] [ 57%] Built target test_condition_initial_pose_received
+[3.434s] [ 58%] Built target test_condition_transform_available
+[3.498s] [ 59%] Built target test_condition_is_stuck
+[3.595s] [ 60%] Built target test_condition_is_battery_charging
+[3.626s] [ 61%] Built target test_condition_is_battery_low
+[3.721s] [ 62%] Built target test_condition_is_path_valid
+[3.809s] [ 63%] Built target test_decorator_speed_controller
+[3.821s] [ 64%] Built target test_decorator_distance_controller
+[3.927s] [ 65%] Built target test_goal_updater_node
+[3.929s] [ 66%] Built target test_decorator_rate_controller
+[4.021s] [ 67%] Built target test_goal_updated_controller
+[4.035s] [ 68%] Built target test_single_trigger_node
+[4.144s] [ 69%] Built target test_decorator_path_longer_on_approach
+[4.150s] [ 70%] Built target test_control_recovery_node
+[4.249s] [ 71%] Built target test_control_round_robin_node
+[4.292s] [ 72%] Built target test_control_pipeline_sequence
+[4.353s] [ 73%] Built target test_bt_action_node
+[4.432s] [ 74%] Built target test_action_spin_action
+[4.518s] [ 75%] Built target test_action_back_up_action
+[4.543s] [ 76%] Built target test_action_drive_on_heading
+[4.648s] [ 77%] Built target test_action_assisted_teleop_action
+[4.666s] [ 78%] Built target test_action_wait_action
+[4.752s] [ 79%] Built target test_action_controller_cancel_action
+[4.818s] [ 80%] Built target test_action_wait_cancel_action
+[4.884s] [ 81%] Built target test_action_spin_cancel_action
+[4.946s] [ 82%] Built target test_action_back_up_cancel_action
+[4.992s] [ 83%] Built target test_action_assisted_teleop_cancel_action
+[5.131s] [ 84%] Built target test_action_drive_on_heading_cancel_action
+[5.171s] [ 85%] Built target test_action_clear_costmap_service
+[5.278s] [ 86%] Built target test_action_reinitialize_global_localization_service
+[5.292s] [ 87%] Built target test_action_compute_path_to_pose_action
+[5.370s] [ 88%] Built target test_action_compute_path_through_poses_action
+[5.395s] [ 89%] Built target test_action_smooth_path_action
+[5.473s] [ 89%] Built target test_action_follow_path_action
+[5.502s] [ 90%] Built target test_action_navigate_to_pose_action
+[5.586s] [ 91%] Built target test_action_navigate_through_poses_action
+[5.604s] [ 92%] Built target test_truncate_path_action
+[5.734s] [ 93%] Built target test_truncate_path_local_action
+[5.787s] [ 94%] Built target test_remove_passed_goals_action
+[5.874s] [ 95%] Built target test_get_pose_from_path_action
+[5.888s] [ 96%] Built target test_planner_selector_node
+[5.991s] [ 97%] Built target test_controller_selector_node
+[6.007s] [ 98%] Built target test_smoother_selector_node
+[6.110s] [ 99%] Built target test_progress_checker_selector_node
+[6.112s] [100%] Built target test_goal_checker_selector_node
+[6.134s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_behavior_tree -- -j2 -l2
+[6.150s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_behavior_tree
+[6.163s] -- Install configuration: "Release"
+[6.166s] -- Execute custom install script
+[6.172s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[6.173s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[6.175s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[6.177s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[6.179s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[6.181s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[6.182s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[6.184s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[6.186s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[6.187s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[6.188s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[6.190s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[6.191s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[6.193s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[6.194s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[6.196s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[6.196s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[6.197s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[6.199s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[6.199s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[6.201s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[6.202s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[6.203s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[6.204s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[6.206s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[6.207s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[6.209s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[6.211s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[6.213s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[6.215s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[6.216s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[6.217s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[6.219s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[6.220s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[6.221s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[6.226s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[6.228s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[6.229s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[6.236s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[6.236s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[6.240s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[6.241s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+[6.241s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[6.242s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[6.244s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[6.246s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[6.246s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[6.247s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[6.249s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[6.253s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[6.253s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[6.255s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[6.258s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[6.259s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[6.261s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[6.263s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[6.264s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[6.265s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[6.268s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[6.270s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[6.271s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[6.275s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[6.276s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[6.278s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[6.279s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[6.280s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[6.282s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[6.284s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[6.286s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[6.287s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[6.289s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp
+[6.291s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[6.292s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[6.294s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[6.295s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[6.297s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+[6.297s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[6.298s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[6.299s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[6.301s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[6.301s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[6.303s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[6.303s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[6.304s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[6.306s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[6.306s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[6.308s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[6.309s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[6.310s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[6.311s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[6.312s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[6.313s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[6.314s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[6.315s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[6.316s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[6.317s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[6.318s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[6.319s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[6.321s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[6.324s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[6.327s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[6.340s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[6.340s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[6.342s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[6.344s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[6.345s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[6.347s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[6.349s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[6.353s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[6.355s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[6.366s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[6.366s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[6.366s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[6.366s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[6.367s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[6.369s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[6.370s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[6.372s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[6.373s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[6.375s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[6.376s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[6.378s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[6.378s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[6.395s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[6.397s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.399s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[6.400s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.403s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[6.404s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[6.404s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[6.418s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_behavior_tree

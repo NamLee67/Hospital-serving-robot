@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/dwb_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

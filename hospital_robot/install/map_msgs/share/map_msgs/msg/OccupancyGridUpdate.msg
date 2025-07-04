@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/nav2_package/navigation_msgs/map_msgs/msg/OccupancyGridUpdate.msg

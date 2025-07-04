@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_typesupport_fastrtps_c/map_msgs/msg/detail/projected_map_info__rosidl_typesupport_fastrtps_c.h

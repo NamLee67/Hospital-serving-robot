@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/map_msgs/rosidl_generator_c/map_msgs/srv/detail/get_point_map__functions.h

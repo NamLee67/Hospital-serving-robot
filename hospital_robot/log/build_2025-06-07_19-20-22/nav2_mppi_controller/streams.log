@@ -1,0 +1,93 @@
+[0.063s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_mppi_controller -- -j2 -l2
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target mppi_controller[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target mppi_critics[0m
+[0.316s] [ 16%] Built target mppi_controller
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.380s] [ 42%] Built target mppi_critics
+[0.393s] [ 46%] Built target gtest_main
+[0.412s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.434s] [ 51%] Built target gtest
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target optimizer_smoke_test[0m
+[0.495s] [35m[1mConsolidate compiler generated dependencies of target controller_state_transition_test[0m
+[0.545s] [ 55%] Built target optimizer_smoke_test
+[0.545s] [ 59%] Built target controller_state_transition_test
+[0.582s] [35m[1mConsolidate compiler generated dependencies of target noise_generator_test[0m
+[0.591s] [35m[1mConsolidate compiler generated dependencies of target models_test[0m
+[0.614s] [ 63%] Built target noise_generator_test
+[0.619s] [ 67%] Built target models_test
+[0.644s] [35m[1mConsolidate compiler generated dependencies of target motion_model_tests[0m
+[0.650s] [35m[1mConsolidate compiler generated dependencies of target parameter_handler_test[0m
+[0.683s] [ 71%] Built target motion_model_tests
+[0.697s] [ 75%] Built target parameter_handler_test
+[0.722s] [35m[1mConsolidate compiler generated dependencies of target trajectory_visualizer_tests[0m
+[0.734s] [35m[1mConsolidate compiler generated dependencies of target utils_test[0m
+[0.771s] [ 79%] Built target trajectory_visualizer_tests
+[0.787s] [ 83%] Built target utils_test
+[0.830s] [35m[1mConsolidate compiler generated dependencies of target path_handler_test[0m
+[0.846s] [35m[1mConsolidate compiler generated dependencies of target critic_manager_test[0m
+[0.864s] [ 87%] Built target path_handler_test
+[0.877s] [ 91%] Built target critic_manager_test
+[0.918s] [35m[1mConsolidate compiler generated dependencies of target optimizer_unit_tests[0m
+[0.920s] [35m[1mConsolidate compiler generated dependencies of target critics_tests[0m
+[0.952s] [ 95%] Built target critics_tests
+[0.953s] [100%] Built target optimizer_unit_tests
+[0.966s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_mppi_controller -- -j2 -l2
+[0.976s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_mppi_controller
+[0.988s] -- Install configuration: "Release"
+[0.989s] -- Execute custom install script
+[0.989s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/lib/libmppi_controller.so
+[0.989s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/lib/libmppi_critics.so
+[0.994s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[0.995s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[0.995s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[0.995s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[0.995s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[0.995s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[0.996s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[0.997s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[1.002s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[1.003s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[1.008s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+[1.008s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[1.008s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[1.008s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[1.008s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[1.010s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[1.010s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[1.011s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[1.012s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[1.013s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[1.014s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[1.015s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[1.015s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[1.017s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[1.018s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[1.018s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[1.019s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[1.020s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[1.020s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[1.024s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[1.026s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[1.026s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller//mppic.xml
+[1.027s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller//critics.xml
+[1.032s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[1.033s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[1.034s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[1.035s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[1.036s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[1.038s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[1.039s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[1.041s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[1.042s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[1.042s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[1.042s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[1.054s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[1.057s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[1.060s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[1.062s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.062s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.063s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.065s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[1.067s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[1.067s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[1.116s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_mppi_controller

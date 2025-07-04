@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_simple_commander/launch/nav_to_pose_example_launch.py

@@ -1,0 +1,1 @@
+/home/huuhoa/hospital_robot/build/nav2_graceful_controller/ament_cmake_environment_hooks/local_setup.zsh

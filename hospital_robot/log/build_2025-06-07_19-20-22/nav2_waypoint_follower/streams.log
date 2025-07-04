@@ -1,0 +1,125 @@
+[0.057s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_waypoint_follower
+[0.155s] -- The C compiler identification is GNU 11.4.0
+[0.243s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.387s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.397s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.402s] -- Detecting CXX compiler ABI info
+[0.560s] -- Detecting CXX compiler ABI info - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.560s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.581s] -- Found OpenCV version 4.5.4
+[0.588s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[0.787s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.867s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.968s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.982s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.992s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.038s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.090s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.096s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.125s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.136s] -- Looking for pthread.h
+[1.259s] -- Looking for pthread.h - found
+[1.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.386s] -- Found Threads: TRUE  
+[1.543s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.555s] -- Found nav2_common: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_common/share/nav2_common/cmake)
+[1.555s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.598s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.623s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.646s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.665s] -- Found nav2_msgs: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.691s] -- Found nav2_util: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_util/share/nav2_util/cmake)
+[1.753s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.754s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.755s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.791s] -- Found nav2_core: 1.1.18 (/home/huuhoa/hospital_robot/install/nav2_core/share/nav2_core/cmake)
+[2.298s] -- Setting build type to Release as none was specified.
+[2.302s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.305s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.445s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.639s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.654s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.654s] -- Configured cppcheck include dirs: /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_waypoint_follower/include
+[2.654s] -- Configured cppcheck exclude dirs and/or files: 
+[2.657s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.657s] -- Configured cpplint exclude dirs and/or files: 
+[2.658s] -- Added test 'lint_cmake' to check CMake code style
+[2.661s] -- Added test 'uncrustify' to check C / C++ code style
+[2.661s] -- Configured uncrustify additional arguments: 
+[2.670s] -- Added test 'xmllint' to check XML markup files
+[2.677s] -- Configuring done
+[3.002s] -- Generating done
+[3.086s] -- Build files have been written to: /home/huuhoa/hospital_robot/build/nav2_waypoint_follower
+[3.107s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huuhoa/hospital_robot/src/nav2_package/navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huuhoa/hospital_robot/install/nav2_waypoint_follower
+[3.120s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_waypoint_follower -- -j2 -l2
+[3.216s] [  5%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[17.750s] [ 11%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[18.500s] [ 11%] Built target waypoint_follower_core
+[18.533s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_at_waypoint.dir/plugins/wait_at_waypoint.cpp.o[0m
+[21.906s] [ 22%] [32m[1mLinking CXX shared library libwait_at_waypoint.so[0m
+[22.275s] [ 22%] Built target wait_at_waypoint
+[22.313s] [ 27%] [32mBuilding CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o[0m
+[35.547s] [ 33%] [32m[1mLinking CXX shared library libphoto_at_waypoint.so[0m
+[36.011s] [ 33%] Built target photo_at_waypoint
+[36.054s] [ 38%] [32mBuilding CXX object CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o[0m
+[46.502s] [ 44%] [32m[1mLinking CXX shared library libinput_at_waypoint.so[0m
+[46.971s] [ 44%] Built target input_at_waypoint
+[47.021s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[47.981s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[48.076s] [ 55%] Built target gtest_main
+[48.117s] [ 61%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[56.927s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[57.046s] [ 66%] Built target gtest
+[57.091s] [ 72%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[62.214s] [ 77%] [32m[1mLinking CXX executable waypoint_follower[0m
+[62.650s] [ 77%] Built target waypoint_follower
+[62.699s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_task_executors.dir/test_task_executors.cpp.o[0m
+[73.913s] [ 88%] [32m[1mLinking CXX executable test_task_executors[0m
+[75.361s] [ 88%] Built target test_task_executors
+[75.404s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[81.973s] [100%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[82.542s] [100%] Built target test_dynamic_parameters
+[82.559s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/nav2_waypoint_follower -- -j2 -l2
+[82.561s] Invoking command in '/home/huuhoa/hospital_robot/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_waypoint_follower
+[82.574s] -- Install configuration: "Release"
+[82.575s] -- Execute custom install script
+[82.576s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[82.596s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so
+[82.610s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+[82.623s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so
+[82.636s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[82.647s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/input_at_waypoint.hpp
+[82.659s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/photo_at_waypoint.hpp
+[82.670s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/wait_at_waypoint.hpp
+[82.681s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[82.692s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.sh
+[82.703s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.dsv
+[82.715s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower//plugins.xml
+[82.726s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[82.738s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[82.748s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[82.760s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[82.771s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[82.788s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[82.810s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[82.828s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[82.843s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[82.855s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[82.868s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[82.879s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[82.890s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/ament_index/resource_index/nav2_waypoint_follower__pluginlib__plugin/nav2_waypoint_follower
+[82.902s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/ament_index/resource_index/rclcpp_components/nav2_waypoint_follower
+[82.913s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[82.925s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_libraries-extras.cmake
+[82.936s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.948s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[82.959s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[82.972s] -- Symlinking: /home/huuhoa/hospital_robot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[83.000s] Invoked command in '/home/huuhoa/hospital_robot/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huuhoa/hospital_robot/install/nav2_core:/home/huuhoa/hospital_robot/install/nav2_costmap_2d:/home/huuhoa/hospital_robot/install/nav2_map_server:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager:/home/huuhoa/hospital_robot/install/nav2_util:/home/huuhoa/hospital_robot/install/nav2_voxel_grid:/home/huuhoa/hospital_robot/install/nav2_msgs:/home/huuhoa/hospital_robot/install/nav2_common:/home/huuhoa/hospital_robot/install/map_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/huuhoa/hospital_robot/install/nav2_costmap_2d/lib:/home/huuhoa/hospital_robot/install/nav2_map_server/lib:/home/huuhoa/hospital_robot/install/nav2_lifecycle_manager/lib:/home/huuhoa/hospital_robot/install/nav2_util/lib:/home/huuhoa/hospital_robot/install/nav2_voxel_grid/lib:/home/huuhoa/hospital_robot/install/nav2_msgs/lib:/home/huuhoa/hospital_robot/install/map_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huuhoa/hospital_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/huuhoa/hospital_robot/install/map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/nav2_waypoint_follower

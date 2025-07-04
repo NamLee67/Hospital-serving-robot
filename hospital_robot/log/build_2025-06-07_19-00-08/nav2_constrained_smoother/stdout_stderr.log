@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_constrained_smoother[0m
+[ 20%] Built target nav2_constrained_smoother
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 40%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 60%] Built target gtest
+[ 70%] [32mBuilding CXX object test/CMakeFiles/test_constrained_smoother.dir/test_constrained_smoother.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_constrained_smoother[0m
+[ 80%] Built target test_constrained_smoother
+[ 90%] [32mBuilding CXX object test/CMakeFiles/test_smoother_cost_function.dir/test_smoother_cost_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_smoother_cost_function[0m
+[100%] Built target test_smoother_cost_function
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/lib/libnav2_constrained_smoother.so
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/include//nav2_constrained_smoother/constrained_smoother.hpp
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/include//nav2_constrained_smoother/options.hpp
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother.hpp
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother_cost_function.hpp
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/include//nav2_constrained_smoother/utils.hpp
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.sh
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.dsv
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother//nav2_constrained_smoother.xml
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_constrained_smoother
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_constrained_smoother
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.sh
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.dsv
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.sh
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.dsv
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.bash
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.sh
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.zsh
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.dsv
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.dsv
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/ament_index/resource_index/packages/nav2_constrained_smoother
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_constrained_smoother
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig.cmake
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig-version.cmake
+-- Symlinking: /home/huuhoa/hospital_robot/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.xml

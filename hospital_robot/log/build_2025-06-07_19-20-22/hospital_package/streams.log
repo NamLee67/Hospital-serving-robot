@@ -1,0 +1,50 @@
+[0.036s] Invoking command in '/home/huuhoa/hospital_robot/build/hospital_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/hospital_package -- -j2 -l2
+[0.152s] Invoked command in '/home/huuhoa/hospital_robot/build/hospital_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huuhoa/hospital_robot/build/hospital_package -- -j2 -l2
+[0.160s] Invoking command in '/home/huuhoa/hospital_robot/build/hospital_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/hospital_package
+[0.175s] -- Install configuration: ""
+[0.177s] -- Execute custom install script
+[0.185s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/config/.nav2_params.yaml.swp
+[0.190s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/config/hospital_robot.rviz
+[0.195s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/config/mapper_params_online_async.yaml
+[0.195s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/config/mapper_params_online_async_localization.yaml
+[0.198s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/config/mapper_params_online_async_loci.yaml
+[0.198s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/config/nav2_params.yaml
+[0.201s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/config/nav2_params_backup.yaml
+[0.207s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/description/gazebo_enviroment.xacro
+[0.207s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/description/hospital_robot.xacro
+[0.207s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/description/lidar_config.xacro
+[0.209s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/description/robot.urdf.xacro
+[0.212s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/launch/launch_sim.launch.py
+[0.214s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/launch/publisher.launch.py
+[0.223s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map1/my_map_save.pgm
+[0.226s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map1/my_map_save.yaml
+[0.227s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map1/my_map_serial.data
+[0.227s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map1/my_map_serial.posegraph
+[0.229s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map2/my_map_save.pgm
+[0.229s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map2/my_map_save.yaml
+[0.231s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map2/my_map_serial.data
+[0.232s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map2/my_map_serial.posegraph
+[0.234s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map4/my_map_save.pgm
+[0.236s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map4/my_map_save.yaml
+[0.238s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map4/my_map_serial.data
+[0.238s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map4/my_map_serial.posegraph
+[0.241s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map5/my_map_save.pgm
+[0.242s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map5/my_map_save.yaml
+[0.243s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map5/my_map_serial.data
+[0.244s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/maps/map5/my_map_serial.posegraph
+[0.248s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/ament_index/resource_index/package_run_dependencies/hospital_package
+[0.250s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/ament_index/resource_index/parent_prefix_path/hospital_package
+[0.253s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/environment/ament_prefix_path.sh
+[0.254s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/environment/ament_prefix_path.dsv
+[0.255s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/environment/path.sh
+[0.259s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/environment/path.dsv
+[0.259s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/local_setup.bash
+[0.260s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/local_setup.sh
+[0.262s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/local_setup.zsh
+[0.262s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/local_setup.dsv
+[0.262s] -- Symlinking: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/package.dsv
+[0.282s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/ament_index/resource_index/packages/hospital_package
+[0.293s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/cmake/hospital_packageConfig.cmake
+[0.295s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/cmake/hospital_packageConfig-version.cmake
+[0.300s] -- Up-to-date symlink: /home/huuhoa/hospital_robot/install/hospital_package/share/hospital_package/package.xml
+[0.301s] Invoked command in '/home/huuhoa/hospital_robot/build/hospital_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huuhoa/hospital_robot/build/hospital_package
