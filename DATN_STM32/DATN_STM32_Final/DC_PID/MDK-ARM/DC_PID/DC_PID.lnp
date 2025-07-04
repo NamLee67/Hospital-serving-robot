@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"dc_pid\startup_stm32f103xb.o"
+"dc_pid\main.o"
+"dc_pid\stm32f1xx_it.o"
+"dc_pid\stm32f1xx_hal_msp.o"
+"dc_pid\stm32f1xx_hal_gpio_ex.o"
+"dc_pid\stm32f1xx_hal_tim.o"
+"dc_pid\stm32f1xx_hal_tim_ex.o"
+"dc_pid\stm32f1xx_hal.o"
+"dc_pid\stm32f1xx_hal_rcc.o"
+"dc_pid\stm32f1xx_hal_rcc_ex.o"
+"dc_pid\stm32f1xx_hal_gpio.o"
+"dc_pid\stm32f1xx_hal_dma.o"
+"dc_pid\stm32f1xx_hal_cortex.o"
+"dc_pid\stm32f1xx_hal_pwr.o"
+"dc_pid\stm32f1xx_hal_flash.o"
+"dc_pid\stm32f1xx_hal_flash_ex.o"
+"dc_pid\stm32f1xx_hal_exti.o"
+"dc_pid\stm32f1xx_hal_uart.o"
+"dc_pid\system_stm32f1xx.o"
+--strict --scatter "DC_PID\DC_PID.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DC_PID.map" -o DC_PID\DC_PID.axf
